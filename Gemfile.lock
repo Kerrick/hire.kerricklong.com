@@ -4,6 +4,7 @@ GEM
     bourbon (3.1.1)
       sass (>= 3.2.0)
       thor
+    listen (0.7.3)
     sass (3.2.7)
     thor (0.17.0)
 
@@ -12,3 +13,4 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon (~> 3.1)
+  listen (~> 0.7)
