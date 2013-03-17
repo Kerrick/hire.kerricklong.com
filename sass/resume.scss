@@ -91,7 +91,7 @@ dl#dreyfus {
   dt, dd {
     float: left;
     margin: 0;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     @include box-sizing(border-box);
     border: 1px solid $border-color;
     border-top: none;
@@ -101,13 +101,13 @@ dl#dreyfus {
     }
   }
   dt {
-    width: 33%;
-    text-align: right;
+    width: 20%;
+    text-align: center;
     font-weight: bold;
     border-right: none;
   }
   dd {
-    width: 67%;
+    width: 80%;
   }
 }
 abbr.dreyfus {
@@ -126,4 +126,5 @@ article.project:last-child, article.work:last-child {
 }
 @import "small-screens";
 @import "big-screens";
+@import "huge-screens";
 
