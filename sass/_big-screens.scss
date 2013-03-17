@@ -1,28 +1,10 @@
 @media screen and (min-width: $break-width * 3.5), // Both because width of content matters
        screen and (min-width: $break-width * 2) and (max-width: $break-width * 3 ) {
-  dl#dreyfus {
-    :nth-of-type(2) {
-      border-top: 1px solid $border-color;
-    }
-    dt {
-      width: (20% / 2);
-      &:nth-of-type(2n) {
-        border-left: none;
-      }
-    }
-    dd {
-      width: (80% / 2);
-      &:last-child {
-        width: (80% + 20% / 2);
-      }
-    }
-  }
   #skills {
     @include clearfix;
     article {
       width: $break-width;
       float: left;
-      margin-right: 2em;
     }
   }
 }

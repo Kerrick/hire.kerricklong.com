@@ -24,50 +24,46 @@ Availability
 
 Skills
 
-   I’ve ranked my skills according to the Dreyfus model for clarity. A
-   quick reference is below for convenience.
-
-   N
-          Novice
-
-   AB
-          Advanced Beginner
-
-   C
-          Competent
-
-   P
-          Proficient
-
-   E
-          Expert
-
   Languages
 
-     * Ruby (P)
-     * JavaScript (P)
-     * CSS 2.1/3 (E)
-     * (x)HTML 5 (E)
+     * Ruby
+     * JavaScript
+     * CSS 2.1/3
+     * (x)HTML 5
 
   Frameworks
 
-     * jQuery (C)
-     * Sinatra (C)
-     * Ember.js (N)
-     * Ruby on Rails (AB)
+     * jQuery
+     * Sinatra
+     * Twitter Bootstrap
+     * ZURB Foundation
 
-  Software
+  Development Software
 
-     * git scm (C)
-     * Photoshop (C)
-     * Illustrator (AB)
-     * GNU/Linux (P)
+     * vim
+     * git scm
+     * GNU/Linux
+     * IntelliJ IDEA
+
+  Design Software
+
+     * The GIMP
+     * Adobe Illustrator
+     * Adobe Lightroom
+     * Adobe Photoshop
+
+  Exposed to
+
+     * Ember.js
+     * WordPress
+     * CoffeeScript
+     * Ruby on Rails
 
   Processes
 
      * Usability & UX
      * Responsive design
-     * Mobile-first strategy
+     * Hand-crafted code
      * Browser compatibility
 
 Projects
