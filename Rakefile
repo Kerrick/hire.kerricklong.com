@@ -59,8 +59,8 @@ namespace :compile do
   
   desc 'Compile index.html to plain text as resume.txt'
   file 'resume.txt' => 'index.html' do |t|
-    txt = `elinks -no-numbering -no-references -dump index.html`
-    txt.gsub! /\n\s+?\* View.+$/, ''
+    txt = `lynx -nonumbers -nolist -dump index.html -raw`
+    txt.gsub! /\n\s+?\* View.+$/, ''
     File.open 'resume.txt', 'w' do |f|
       f.write txt
     end
