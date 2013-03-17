@@ -1,0 +1,20 @@
+@media screen and (min-width: $break-width * 3) {
+  #masthead {
+    width: $break-width;
+    height: 100%;
+    padding: 1em;
+    position: fixed;
+    top: 0; left: 0;
+    text-align: left;
+    border-right: 1px solid $divider-color;
+    background: $background-color;
+  }
+  #contact {
+    border: 0;
+  }
+  body > section {
+    margin-left: $break-width + 3em;
+    margin-right: 1em;
+  }
+}
+

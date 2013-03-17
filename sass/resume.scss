@@ -6,14 +6,20 @@ $link-color-hover:         darken(saturate($link-color, 10%), 10%);
 $link-color-visited:       adjust-hue($link-color, 40%);
 $link-color-visited-hover: darken(saturate($link-color-visited, 10%), 10%);
 $body-color:               #444;
+$background-color:         #fff;
 $header-color:             #383838;
 $border-color:             #888;
+$divider-color:            lighten($border-color, 33%);
 $body-font-rule:           1em / 1.4em "Habibi", $georgia;
+$break-width:              13em;
 
+// Base styles for tiny screens
 body {
   font: $body-font-rule;
   color: $body-color;
+  background: $background-color;
   margin: 0em 1em;
+  position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
   color: $header-color;
@@ -47,6 +53,9 @@ abbr[title] {
   letter-spacing: 0.1em;
   text-decoration: none;
   border: 0;
+}
+p, li {
+  max-width: $break-width * 3;
 }
 
 #masthead {
@@ -82,24 +91,24 @@ dl#dreyfus {
   padding: 0;
   @include clearfix;
   dt, dd {
+    float: left;
     margin: 0;
     padding: 0.5em 1em;
     @include box-sizing(border-box);
     border: 1px solid $border-color;
     border-top: none;
+    white-space: nowrap;
     &:first-of-type {
       border-top: 1px solid $border-color;
     }
   }
   dt {
-    float: left;
     width: 33%;
     text-align: right;
     font-weight: bold;
     border-right: none;
   }
   dd {
-    float: right;
     width: 67%;
   }
 }
@@ -117,4 +126,6 @@ article.project:last-child, article.work:last-child {
   font: italic normal $body-font-rule;
   text-align: right;
 }
+@import "small-screens";
+@import "big-screens";
 
