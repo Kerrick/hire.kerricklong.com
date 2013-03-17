@@ -10,17 +10,13 @@
     height: 100%;
     padding: 1em;
     border-right: 1px solid $divider-color;
-    & > * {
-      background: $background-color;
-    }
   }
   footer {
     bottom: 0;
     top: auto;
     height: auto;
     border-top: 0;
-    background: none;
-    z-index: -1;
+    background: $background-color;
   }
   #contact {
     border: 0;
