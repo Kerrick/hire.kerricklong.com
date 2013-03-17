@@ -43,8 +43,7 @@ end
 namespace :watch do
   desc 'Watch the only the sass/ directory'
   task :sass do
-    Dir.mkdir 'css'  unless Dir.exists? 'css'
-    Dir.mkdir 'scss' unless Dir.exists? 'scss'
+    check_dirs %w[css sass]
     on_change_of_folder 'sass' do
       sh 'sass --update sass:css --style expanded --line-numbers --line-comments', verbose: false
     end
@@ -54,10 +53,14 @@ end
 namespace :compile do
   desc 'Compile the sass/ directory into CSS for production'
   task :sass do
-    Dir.mkdir 'css'  unless Dir.exists? 'css'
-    Dir.mkdir 'scss' unless Dir.exists? 'scss'
+    check_dirs %w[css sass]
     sh 'sass --update sass:css --style compressed --force', verbose: false
   end
+end
+
+def check_dirs(dir_array)
+  require 'fileutils'
+  dir_array.each { |dir| FileUtils.mkdir_p dir unless Dir.exists? dir }
 end
 
 def on_change_of_folder(folder, &block)
