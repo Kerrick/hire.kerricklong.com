@@ -1,2 +1,82 @@
 @import "vendor/bourbon/bourbon";
+@import "normalize";
+
+$link-color:               #3567C4;
+$link-color-hover:         darken(saturate($link-color, 10%), 10%);
+$link-color-visited:       adjust-hue($link-color, 40%);
+$link-color-visited-hover: darken(saturate($link-color-visited, 10%), 10%);
+
+body {
+  font: 1em / 1.4em "Habibi", $georgia;
+  color: #444;
+  margin: 0em 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helvetica;
+}
+a {
+  &:link {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: $link-color;
+  }
+  &:visited       { color: $link-color-visited; }
+  &:hover         { color: $link-color-hover; }
+  &:hover:visited { color: $link-color-visited-hover; }
+  &:active        { position: relative; top: 2px; }
+}
+abbr {
+  cursor: help;
+}
+
+#masthead {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #444;
+    border: 0;
+  }
+  .tagline {
+    color: #888;
+  }
+}
+#contact {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 1em 0 0;
+  address {
+    font-style: normal;
+    margin-bottom: 1em;
+  }
+  .email, .tel {
+    display: block;
+    margin-bottom: 1em;
+  }
+}
+dl#dreyfus {
+  margin: 1em 0;
+  padding: 0;
+  @include clearfix;
+  dt, dd {
+    margin: 0;
+    padding: 0.5em 1em;
+    @include box-sizing(border-box);
+    border: 1px solid #888;
+    border-top: none;
+    &:first-of-type {
+      border-top: 1px solid #888;
+    }
+  }
+  dt {
+    float: left;
+    width: 33%;
+    text-align: right;
+    font-weight: bold;
+    border-right: none;
+  }
+  dd {
+    float: right;
+    width: 67%;
+  }
+}
 
