@@ -20,6 +20,7 @@ body {
   background: $background-color;
   margin: 0em 1em;
   position: relative;
+  max-width: $break-width * 4.5;
 }
 h1, h2, h3, h4, h5, h6 {
   color: $header-color;
@@ -53,9 +54,6 @@ abbr[title] {
   letter-spacing: 0.1em;
   text-decoration: none;
   border: 0;
-}
-p, li {
-  max-width: $break-width * 3;
 }
 
 #masthead {
