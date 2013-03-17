@@ -1,13 +1,26 @@
 @media screen and (min-width: $break-width * 3) {
-  #masthead {
+  #masthead, footer {
     width: $break-width;
+    position: fixed;
+    text-align: left;
+  }
+  #masthead {
+    top: 0;
+    left: 0;
     height: 100%;
     padding: 1em;
-    position: fixed;
-    top: 0; left: 0;
-    text-align: left;
     border-right: 1px solid $divider-color;
-    background: $background-color;
+    & > * {
+      background: $background-color;
+    }
+  }
+  footer {
+    bottom: 0;
+    top: auto;
+    height: auto;
+    border-top: 0;
+    background: none;
+    z-index: -1;
   }
   #contact {
     border: 0;

@@ -70,7 +70,7 @@ abbr[title] {
 #contact {
   border-top: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
-  padding: 1em 0 0;
+  padding: 1em 0;
   address {
     font-style: normal;
     margin-bottom: 1em;
@@ -124,6 +124,29 @@ article.project:last-child, article.work:last-child {
   font: italic normal $body-font-rule;
   text-align: right;
 }
+footer {
+  background: $divider-color;
+  margin: 0 -1em;
+  padding: 1em;
+  position: relative;
+  top: -1px;
+  border-top: 1px solid $border-color;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    text-align: right;
+    padding: 0.5em 0;
+  }
+  a {
+    &:after {
+      content: " \00BB";
+    }
+  }
+}
+
 @import "small-screens";
 @import "big-screens";
 @import "huge-screens";
