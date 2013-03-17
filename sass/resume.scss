@@ -5,14 +5,29 @@ $link-color:               #3567C4;
 $link-color-hover:         darken(saturate($link-color, 10%), 10%);
 $link-color-visited:       adjust-hue($link-color, 40%);
 $link-color-visited-hover: darken(saturate($link-color-visited, 10%), 10%);
+$body-color:               #444;
+$header-color:             #383838;
+$border-color:             #888;
 
 body {
   font: 1em / 1.4em "Habibi", $georgia;
-  color: #444;
+  color: $body-color;
   margin: 0em 1em;
 }
 h1, h2, h3, h4, h5, h6 {
+  color: $header-color;
   font-family: $helvetica;
+  a:link, a:visited, a:hover, a:hover:visited {
+    color: $header-color;
+    text-decoration: none;
+    border: 0;
+  }
+}
+ul {
+  padding: 0 0 0 1.5em;
+  li {
+    list-style-type: square;
+  }
 }
 a {
   &:link {
@@ -25,8 +40,11 @@ a {
   &:hover:visited { color: $link-color-visited-hover; }
   &:active        { position: relative; top: 2px; }
 }
-abbr {
+abbr[title] {
   cursor: help;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border: 0;
 }
 
 #masthead {
@@ -37,12 +55,12 @@ abbr {
     border: 0;
   }
   .tagline {
-    color: #888;
+    color: $border-color;
   }
 }
 #contact {
-  border-top: 1px solid #888;
-  border-bottom: 1px solid #888;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
   padding: 1em 0 0;
   address {
     font-style: normal;
@@ -53,6 +71,9 @@ abbr {
     margin-bottom: 1em;
   }
 }
+body > section {
+  border-bottom: 1px solid $border-color;
+}
 dl#dreyfus {
   margin: 1em 0;
   padding: 0;
@@ -61,10 +82,10 @@ dl#dreyfus {
     margin: 0;
     padding: 0.5em 1em;
     @include box-sizing(border-box);
-    border: 1px solid #888;
+    border: 1px solid $border-color;
     border-top: none;
     &:first-of-type {
-      border-top: 1px solid #888;
+      border-top: 1px solid $border-color;
     }
   }
   dt {
@@ -77,6 +98,11 @@ dl#dreyfus {
   dd {
     float: right;
     width: 67%;
+  }
+}
+#skills article {
+  abbr.dreyfus {
+    font-size: 0.8em;
   }
 }
 
