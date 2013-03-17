@@ -1,0 +1,207 @@
+                                  Kerrick Long
+
+Web developer
+
+    531 Columbine Street
+    Cape Girardeau, MO 63701
+
+   me@kerricklong.com (573) 200-6339
+
+Summary
+
+   I am a web developer with five years of front-end experience, one year of
+   back-end experience, and a lifetime of passion for the proliferation of
+   technology in our lives. I strive to learn every single day, work hard to
+   make the web accessible to people of all backgrounds, and have a penchant
+   for open standards and open source software.
+
+Availability
+
+   I am immediately available for hire. Specifically, I am looking for
+   full-time employment as a front-end web developer in Kansas City,
+   Missouri.
+
+Skills
+
+   I’ve ranked my skills according to the Dreyfus model for clarity. A quick
+   reference is below for convenience.
+
+   N
+           Novice
+
+   AB
+           Advanced Beginner
+
+   C
+           Competent
+
+   P
+           Proficient
+
+   E
+           Expert
+
+  Languages
+
+     * Ruby (P)
+     * JavaScript (P)
+     * CSS 2.1/3 (E)
+     * (x)HTML 5 (E)
+
+  Frameworks
+
+     * jQuery (C)
+     * Sinatra (C)
+     * Ember.js (N)
+     * Ruby on Rails (AB)
+
+  Software
+
+     * git scm (C)
+     * Photoshop (C)
+     * Illustrator (AB)
+     * GNU/Linux (P)
+
+  Processes
+
+     * Usability & UX
+     * Responsive design
+     * Mobile-first strategy
+     * Browser compatibility
+
+Projects
+
+  Website: Southeast Missouri State University
+
+   January 2011 – July 2011
+
+   Pioneered the comprehensive 2011 redesign of Southeast Missouri State
+   University’s website while working for Web Design & Support.
+
+     * Developed semantic, well-formed and standards-compliant HTML for
+       RedDot CMS
+     * Wrote modular, cascading and reusable CSS
+     * Used progressive enhancement techniques that perform well across
+       browsers, including old IE
+     * Created jQuery slider that handles images and videos, along with other
+       jQuery enhancements
+     * Compensated for unpredictable user input in CSS and customized the
+       user WYSIWYG
+
+  Chrome Extension: Mostly Harmless
+
+   June 2011 – July 2011
+
+   Create a Google Chrome browser extension for reddit.com including:
+
+     * Consume the reddit.com JSON API
+     * Create an object-oriented JavaScript application, fully documented
+       with ScriptDoc
+     * Utilize HTML5 and unique browser APIs for Google Chrome
+
+  Website: Melodic Morse
+
+   February 2013 – March 2013
+
+   Develop an audio processing web application and API including:
+
+     * Program a back-end in ruby using the Sinatra framework
+     * Create a mobile-first front-end using ZURB Foundation for rapid
+       development
+     * Implement a system that supported dynamic option and audio generation
+       based on available files
+
+  Website: Kerrick Long, Real Estate Photographer
+
+   March 2011
+
+   Develop a website for a local real estate photographer including:
+
+     * Reverse engineer a web service that did not provide an API to render
+       virtual tours
+     * Design a minimalist website that showcases the photography
+     * Implement a system that supports blogging by creating markdown files
+       uploaded via git
+
+  CLI App: google
+
+   May 2012
+
+   Create a search application with a command line interface including:
+
+     * Consume the JSON Google Web Search API
+     * Integrate with the Unix environment, including options parsing, pipe
+       support, and STDOUT
+     * Distribute package as a gem via rubygems.org
+
+  Widget: SteamPowered for aNTP
+
+   November 2011
+
+   Created a widget for the “Awesome New Tab Page” including:
+
+     * Consumed the Steam Community API via AJAX
+     * Implemented widget via the Awesome New Tab Page API
+     * Programmed the widget in JavaScript
+
+Work History
+
+  Lead developer
+
+    Zaltin Technologies
+
+   June 2008 – Present
+
+     * Design, code, and implement websites for clients including small
+       businesses and individuals
+     * Work with various APIs and existing systems
+     * Develop open source and proprietary software to fulfill internal and
+       client needs
+
+  Real estate photographer
+
+    Self-Employed
+
+   January 2012 – November 2012
+
+     * Light and photograph newly listed houses
+     * Obtain and retain real estate agent clients
+     * Design fliers to showcase and market homes
+
+  Student developer, web design & support
+
+    Southeast Missouri State University
+
+   September 2009 – September 2011
+
+     * Design and maintain virtual campus tour interface
+     * Design, code, and help implement comprehensive website redesign
+     * Create digital art assets in Adobe Photoshop
+     * Work in a corporate environment with style guides, official logos and
+       colors, and more
+
+  I.T. Specialist, Office of Residence Life
+
+    Southeast Missouri State University
+
+   August 2008 – December 2008
+
+   I worked as an I.T. Specialist for the Office of Residence Life for a
+   semester, helping them launch their new online housing portal.
+
+Education
+
+  Southeast Missouri State University
+
+    Commercial Photography
+
+   2008 – 2011
+
+   I did not complete my degree at Southeast Missouri State University,
+   because I felt the Commercial Photography degree was not right for me. I
+   wanted to learn more about modern web development, and since the
+   University did not have an appropriate program, I left and began
+   self-education.
+
+     * Cofounder, Secular Student Association
+     * Member, Student Photography Association
