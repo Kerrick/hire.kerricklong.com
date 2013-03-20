@@ -45,7 +45,7 @@ a {
   &:visited       { color: $link-color-visited; }
   &:hover         { color: $link-color-hover; }
   &:hover:visited { color: $link-color-visited-hover; }
-  &:active        { position: relative; top: 2px; }
+  &:active        { position: relative; top: 1px; }
 }
 abbr[title] {
   cursor: help;
@@ -72,6 +72,9 @@ abbr[title] {
   address {
     font-style: normal;
     margin-bottom: 1em;
+    .street-address, br {
+      display: none;
+    }
   }
   .email, .tel {
     display: block;
