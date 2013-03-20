@@ -25,12 +25,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: $header-color;
   font-family: $helvetica;
-  text-transform: capitalize;
-  a:link, a:visited {
-    color: $header-color;
-    text-decoration: none;
-    border: 0;
-  }
+  a:link          { color: darken($link-color, 20%); }
+  a:visited       { color: darken($link-color-visited, 20%); }
+  a:hover         { color: darken($link-color-hover, 20%); }
+  a:hover:visited { color: darken($link-color-visited-hover, 20%); }
 }
 ul {
   padding: 0 0 0 1.5em;
@@ -89,9 +87,23 @@ abbr.dreyfus {
 }
 article.project, article.work {
   margin-bottom: 3em;
+  h3 {
+    margin-bottom: 0;
+  }
 }
 article.project:last-child, article.work:last-child {
   margin-bottom: 0;
+}
+}
+.duties h4 {
+  display: none;
+}
+.technologies {
+  h4 {
+    display: inline;
+    font: inherit;
+    &:after { content: ": "; }
+  }
 }
 .dates, .work .company, .education .degree {
   margin: 0;
