@@ -10,17 +10,17 @@ Web developer
 
 Summary
 
-   I am a web developer with five years of front-end experience, one year
-   of back-end experience, and a lifetime of passion for the proliferation
-   of technology in our lives. I strive to learn every single day, work
-   hard to make the web accessible to people of all backgrounds, and have
-   a penchant for open standards and open source software.
+   With a four year combination of front-end and back-end web development
+   experience, and a passion for learning, I strive to make the web usable
+   and accessible to all with open standards, open source, and good user
+   experience.
 
 Availability
 
-   I am immediately available for hire. Specifically, I am looking for
-   full-time employment as a front-end web developer in Kansas City,
-   Missouri.
+   I am available for hire. If you’d like to hire me on contract for a
+   project, please feel free to call me or send me an email. If you are
+   interested in hiring me full-time, I am willing to field offers in the
+   Kansas City, Misosuri area.
 
 Skills
 
@@ -28,43 +28,36 @@ Skills
 
      * Ruby
      * JavaScript
-     * CSS 2.1/3
-     * (x)HTML 5
+     * CSS & Sass
+     * (x)HTML & Haml
 
   Frameworks
 
-     * jQuery
      * Sinatra
+     * jQuery
+     * Ember.js
+     * Ruby on Rails
+
+  UI Kits
+
+     * Bourbon
+     * Compass
      * Twitter Bootstrap
      * ZURB Foundation
 
-  Development Software
+  Software
 
-     * vim
-     * git scm
-     * GNU/Linux
+     * Unix
+     * vim & tmux
      * IntelliJ IDEA
-
-  Design Software
-
-     * The GIMP
-     * Adobe Illustrator
-     * Adobe Lightroom
      * Adobe Photoshop
 
-  Exposed to
-
-     * Ember.js
-     * WordPress
-     * CoffeeScript
-     * Ruby on Rails
-
-  Processes
+  Methodologies
 
      * Usability & UX
      * Responsive design
-     * Hand-crafted code
      * Browser compatibility
+     * Version control (git)
 
 Projects
 
@@ -74,6 +67,12 @@ Projects
 
    Pioneered the comprehensive 2011 redesign of Southeast Missouri State
    University’s website while working for Web Design & Support.
+
+    Duties
+
+     * Analyzed the most-often clicked links from the homepage, placing
+       those prominently in the redesign. This increased visits to those
+       links without decreasing visits to other pages.
      * Developed semantic, well-formed and standards-compliant HTML for
        RedDot CMS
      * Wrote modular, cascading and reusable CSS
@@ -84,56 +83,124 @@ Projects
      * Compensated for unpredictable user input in CSS and customized the
        user WYSIWYG
 
+    Technologies
+
+     * HTML 5
+     * CSS 3
+     * JavaScript
+     * jQuery
+     * RedDot CMS (AKA OpenText)
+     * Adobe Photoshop
+
   Chrome Extension: Mostly Harmless
 
    June 2011 – July 2011
 
    Create a Google Chrome browser extension for reddit.com including:
+
+    Duties
+
      * Consume the reddit.com JSON API
      * Create an object-oriented JavaScript application, fully documented
        with ScriptDoc
      * Utilize HTML5 and unique browser APIs for Google Chrome
+
+    Technologies
+
+     * HTML
+     * CSS
+     * Object-Oriented JavaScript
+     * Chrome Extension API
+     * reddit.com API
 
   Website: Melodic Morse
 
    February 2013 – March 2013
 
    Develop an audio processing web application and API including:
+
+    Duties
+
      * Program a back-end in ruby using the Sinatra framework
      * Create a mobile-first front-end using ZURB Foundation for rapid
        development
      * Implement a system that supported dynamic option and audio
        generation based on available files
 
+    Technologies
+
+     * HTML 5
+     * Haml
+     * CSS 3
+     * Sass
+     * JavaScript
+     * jQuery
+     * ZURB Foundation
+     * Ruby
+     * Sinatra
+
   Website: Kerrick Long, Real Estate Photographer
 
    March 2011
 
    Develop a website for a local real estate photographer including:
+
+    Duties
+
      * Reverse engineer a web service that did not provide an API to
        render virtual tours
      * Design a minimalist website that showcases the photography
      * Implement a system that supports blogging by creating markdown
        files uploaded via git
 
+    Technologies
+
+     * HTML 5
+     * Haml
+     * CSS 3
+     * Sass
+     * Ruby
+     * Sinatra
+
   CLI App: google
 
    May 2012
 
    Create a search application with a command line interface including:
+
+    Duties
+
      * Consume the JSON Google Web Search API
      * Integrate with the Unix environment, including options parsing,
        pipe support, and STDOUT
      * Distribute package as a gem via rubygems.org
+
+    Technologies
+
+     * Ruby
+     * Google Web Search API
+     * JSON
+     * Unix
 
   Widget: SteamPowered for aNTP
 
    November 2011
 
    Created a widget for the “Awesome New Tab Page” including:
+
+    Duties
+
      * Consumed the Steam Community API via AJAX
      * Implemented widget via the Awesome New Tab Page API
      * Programmed the widget in JavaScript
+
+    Technologies
+
+     * HTML
+     * CSS
+     * JavaScript
+     * Steam Community API
+     * Awesome New Tab Page API
 
 Work History
 
