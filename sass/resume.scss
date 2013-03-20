@@ -97,6 +97,10 @@ article.project, article.work {
 article.project:last-child, article.work:last-child {
   margin-bottom: 0;
 }
+article.work {
+  h3 {
+    text-transform: capitalize;
+  }
 }
 .duties h4 {
   display: none;
