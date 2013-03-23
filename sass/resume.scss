@@ -18,17 +18,21 @@ body {
   font: $body-font-rule;
   color: $body-color;
   background: $background-color;
-  margin: 0em 1em;
+  margin: 1em 1em 0;
   position: relative;
   max-width: $break-width * 4.5;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 { // Textual header elements
   color: $header-color;
   font-family: $helvetica;
+  margin: 1.5em 0 0.5em;
   a:link          { color: darken($link-color, 20%); }
   a:visited       { color: darken($link-color-visited, 20%); }
   a:hover         { color: darken($link-color-hover, 20%); }
   a:hover:visited { color: darken($link-color-visited-hover, 20%); }
+}
+p, ul { // Textual block elements
+  margin: 0 0 1em;
 }
 ul {
   padding: 0 0 0 1.5em;
@@ -56,6 +60,12 @@ abbr[title] {
 
 #masthead {
   text-align: center;
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    margin-top: 0.5em;
+  }
   a {
     text-decoration: none;
     color: #444;
@@ -71,14 +81,14 @@ abbr[title] {
   padding: 1em 0;
   address {
     font-style: normal;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     .street-address, br {
       display: none;
     }
   }
   .email, .tel {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 }
 body > section {
