@@ -36,10 +36,12 @@
   .project, .work {
     padding-left: 2em;
     h3 { margin-left: -2em; }
-    .dates {
+    .dates, .company {
       margin-left: -2.32em;
-      margin-bottom: 1em;
       text-align: left;
+    }
+    .dates {
+      margin-bottom: 1em;
     }
   }
 }
