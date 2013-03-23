@@ -2,14 +2,13 @@
   #masthead, footer {
     width: $break-width;
     position: fixed;
-    text-align: left;
+    text-align: right;
   }
   #masthead {
     top: 0;
     left: 0;
     height: 100%;
     padding: 1em;
-    border-right: 1px solid $divider-color;
   }
   footer {
     bottom: 0;
