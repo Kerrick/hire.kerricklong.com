@@ -10,10 +10,11 @@ Web developer
 
 Summary
 
-   With a four year combination of front-end and back-end web development
-   experience, and a passion for learning, I strive to make the web usable
-   and accessible to all with open standards, open source, and good user
-   experience.
+   With four years of experience in a combination of back- and front-end
+   web development, an eye for user interface deisign, and a passion for
+   learning, I bridge the gap between design and programming. I strive to
+   make the web usable and accessible to all with open source, web
+   standards, and good user experience.
 
 Availability
 
