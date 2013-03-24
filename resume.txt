@@ -64,8 +64,6 @@ Projects
 
   Website: Southeast Missouri State University
 
-   January 2011 – July 2011
-
    Pioneered the comprehensive 2011 redesign of Southeast Missouri State
    University’s website while working for Web Design & Support.
 
@@ -95,8 +93,6 @@ Projects
 
   Chrome Extension: Mostly Harmless
 
-   June 2011 – July 2011
-
    Create a Google Chrome browser extension for reddit.com including:
 
     Duties
@@ -115,8 +111,6 @@ Projects
      * reddit.com API
 
   Website: Melodic Morse
-
-   February 2013 – March 2013
 
    Develop an audio processing web application and API including:
 
@@ -142,8 +136,6 @@ Projects
 
   Website: Kerrick Long, Real Estate Photographer
 
-   March 2011
-
    Develop a website for a local real estate photographer including:
 
     Duties
@@ -165,8 +157,6 @@ Projects
 
   CLI App: google
 
-   May 2012
-
    Create a search application with a command line interface including:
 
     Duties
@@ -184,8 +174,6 @@ Projects
      * Unix
 
   Widget: SteamPowered for aNTP
-
-   November 2011
 
    Created a widget for the “Awesome New Tab Page” including:
 
