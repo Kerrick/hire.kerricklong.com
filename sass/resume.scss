@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 { // Textual header elements
   a:hover         { color: darken($link-color-hover, 20%); }
   a:hover:visited { color: darken($link-color-visited-hover, 20%); }
 }
-p, ul { // Textual block elements
+p, ul, .technologies { // Textual block elements
   margin: 0 0 1em;
 }
 ul {
@@ -99,7 +99,7 @@ abbr.dreyfus {
   font-size: 0.8em;
 }
 article.project, article.work {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   h3 {
     margin-bottom: 0;
   }
