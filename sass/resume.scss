@@ -66,11 +66,8 @@ abbr[title] {
 
 #masthead {
   text-align: center;
-  h1 {
-    margin-top: 0;
-  }
-  h2 {
-    margin-top: 0.5em;
+  h1, h2 {
+    margin: 0;
   }
   a {
     text-decoration: none;

@@ -128,6 +128,7 @@ Projects
     Technologies
 
      * HTML5
+     * HTML5 notifications
      * CSS
      * JSON
      * Object-Oriented JavaScript
@@ -153,9 +154,10 @@ Projects
 
     Technologies
 
-     * HTML 5
+     * HTML5
+     * HTML5 audio
      * Haml
-     * CSS 3
+     * CSS3
      * Sass
      * JavaScript
      * jQuery
@@ -168,21 +170,23 @@ Projects
 
   Website: Kerrick Long, Real Estate Photographer
 
-   Develop a website for a local real estate photographer including:
+   Designed and developed a website for a local real estate photographer
+   to market his services and provide virtual tours for his clients.
 
     Duties
 
-     * Reverse engineer a web service that did not provide an API to
-       render virtual tours
-     * Design a minimalist website that showcases the photography
-     * Implement a system that supports blogging by creating markdown
-       files uploaded via git
+     * Designed an aesthetically minimalist website to showcase the
+       photography and to make textual content easy to digest.
+     * Developed a ruby application using Sinatra that enabled the
+       photographer to blog by simply editing markdown files.
+     * Created a customized web proxy to provide white-labeled virtual
+       tours on the photographer’s domain name.
 
     Technologies
 
-     * HTML 5
+     * HTML5
      * Haml
-     * CSS 3
+     * CSS3
      * Sass
      * Ruby
      * Sinatra
