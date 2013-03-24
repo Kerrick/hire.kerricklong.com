@@ -18,7 +18,7 @@ Summary
 
 Availability
 
-   I am available for hire. If you’d like to hire me on contract for a
+   I am available for hire. If you'd like to hire me on contract for a
    project, please feel free to call me or send me an email. If you are
    interested in hiring me full-time, I am willing to field offers in the
    Kansas City, Misosuri and St. Louis, Missouri areas.
@@ -65,13 +65,13 @@ Projects
   Website: Southeast Missouri State University
 
    Pioneered the comprehensive 2011 redesign of Southeast Missouri State
-   University’s website while working for Web Design & Support.
+   University's website while working for Web Design & Support.
 
     Duties
 
      * Developed semantic, well-formed and standards-compliant HTML for
        RedDot CMS, enabling impaired users to use screen readers and
-       improving the entire site’s SEO.
+       improving the entire site's SEO.
      * Wrote well-documented, modular, cascading and reusable CSS,
        improving the maintainability of the codebase for all other current
        and future developers.
@@ -180,7 +180,7 @@ Projects
      * Developed a ruby application using Sinatra that enabled the
        photographer to blog by simply editing markdown files.
      * Created a customized web proxy to provide white-labeled virtual
-       tours on the photographer’s domain name.
+       tours on the photographer's domain name.
 
     Technologies
 
@@ -197,7 +197,7 @@ Work History
 
     Zaltin Technologies
 
-   June 2008 – Present
+   June 2008 - Present
      * Design, code, and implement websites for clients including small
        businesses and individuals
      * Work with various APIs and existing systems
@@ -208,7 +208,7 @@ Work History
 
     Self-Employed
 
-   January 2012 – November 2012
+   January 2012 - November 2012
      * Light and photograph newly listed houses
      * Obtain and retain real estate agent clients
      * Design fliers to showcase and market homes
@@ -217,7 +217,7 @@ Work History
 
     Southeast Missouri State University
 
-   September 2009 – September 2011
+   September 2009 - September 2011
      * Design and maintain virtual campus tour interface
      * Design, code, and help implement comprehensive website redesign
      * Create digital art assets in Adobe Photoshop
