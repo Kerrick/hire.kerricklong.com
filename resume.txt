@@ -69,18 +69,27 @@ Projects
 
     Duties
 
-     * Analyzed the most-often clicked links from the homepage, placing
-       those prominently in the redesign. This increased visits to those
-       links without decreasing visits to other pages.
      * Developed semantic, well-formed and standards-compliant HTML for
-       RedDot CMS
-     * Wrote modular, cascading and reusable CSS
+       RedDot CMS, enabling impaired users to use screen readers and
+       improving the entire site’s SEO.
+     * Wrote well-documented, modular, cascading and reusable CSS,
+       improving the maintainability of the codebase for all other current
+       and future developers.
      * Used progressive enhancement techniques that perform well across
-       browsers, including old IE
-     * Created jQuery slider that handles images and videos, along with
-       other jQuery enhancements
-     * Compensated for unpredictable user input in CSS and customized the
-       user WYSIWYG
+       browsers, keeping compatibility with text-based browsers and old
+       versions of Internet Explorer, while enabling an enhanced
+       experience for users with modern browsers.
+     * Created rich media elements to improve the appeal and function of
+       department sites, including dynamic calendar and RSS widgets, image
+       and video sliders, and social integration using the Twitter,
+       Facebook, and YouTube APIs.
+     * Improved navigation by using a study of visitor flow, featuring the
+       most often-visited links prominently on the home page, and placing
+       the most often-visited site sections in site-wide persistent
+       navigation.
+     * Facilitated department control over the content of their sections
+       of the University website by optimizing CSS to handle unpredictable
+       HTML.
 
     Technologies
 
@@ -90,6 +99,9 @@ Projects
      * jQuery
      * RedDot CMS (AKA OpenText)
      * Adobe Photoshop
+     * Twitter API
+     * Facebook API
+     * YouTube API
 
   Chrome Extension: Mostly Harmless
 
