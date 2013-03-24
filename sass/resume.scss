@@ -10,7 +10,7 @@ $background-color:         #fff;
 $header-color:             #383838;
 $border-color:             #888;
 $divider-color:            lighten($border-color, 33%);
-$body-font-rule:           1em / 1.4em "Habibi", $georgia;
+$body-font-rule:           1em / 1.5 "Habibi", $georgia;
 $break-width:              14em;
 
 // Base styles for tiny screens
@@ -25,12 +25,18 @@ body {
 h1, h2, h3, h4, h5, h6 { // Textual header elements
   color: $header-color;
   font-family: $helvetica;
-  margin: 1.5em 0 0.5em;
+  margin: 1.5em 0 0;
   a:link          { color: darken($link-color, 20%); }
   a:visited       { color: darken($link-color-visited, 20%); }
   a:hover         { color: darken($link-color-hover, 20%); }
   a:hover:visited { color: darken($link-color-visited-hover, 20%); }
 }
+h1 { font-size: 1.75em; }
+h2 { font-size: 1.50em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 1.00em; font-weight: bold; }
+h6 { font-size: 1.00em; font-weight: normal; font-style: italic; }
 p, ul, .technologies { // Textual block elements
   margin: 0 0 1em;
 }
