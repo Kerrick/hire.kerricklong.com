@@ -136,15 +136,20 @@ Projects
 
   Website: Melodic Morse
 
-   Develop an audio processing web application and API including:
+   Developed a web application allowing users to generate customized
+   ringtones based on Morse code and pre-composed melodies.
 
     Duties
 
-     * Program a back-end in ruby using the Sinatra framework
-     * Create a mobile-first front-end using ZURB Foundation for rapid
-       development
-     * Implement a system that supported dynamic option and audio
-       generation based on available files
+     * Enabled users to quickly generate a ringtone with smart defaults,
+       or dive into the advanced options to customize it to their own
+       preferences.
+     * Created a mobile-first responsive design to allow both mobile and
+       desktop users to use the web app as first-class citizens.
+     * Developed with RDD to enable the client to easily learn how to
+       modify the source code of the project to suit their future needs.
+     * Specified and developed a web-based API to facilitate future native
+       mobile application development.
 
     Technologies
 
@@ -157,6 +162,9 @@ Projects
      * ZURB Foundation
      * Ruby
      * Sinatra
+     * API creation
+     * Mobile-first strategy
+     * Responsive design
 
   Website: Kerrick Long, Real Estate Photographer
 
