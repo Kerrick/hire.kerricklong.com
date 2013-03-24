@@ -93,8 +93,8 @@ Projects
 
     Technologies
 
-     * HTML 5
-     * CSS 3
+     * HTML5
+     * CSS3
      * JavaScript
      * jQuery
      * RedDot CMS (AKA OpenText)
@@ -105,19 +105,31 @@ Projects
 
   Chrome Extension: Mostly Harmless
 
-   Create a Google Chrome browser extension for reddit.com including:
+   Developed a Google Chrome browser extension to enable users of the
+   reddit.com news sharing site to take the social experience to every
+   webpage they visit.
 
     Duties
 
-     * Consume the reddit.com JSON API
-     * Create an object-oriented JavaScript application, fully documented
-       with ScriptDoc
-     * Utilize HTML5 and unique browser APIs for Google Chrome
+     * Allowed users to see at-a-glance if the page they are viewing has
+       been submitted.
+     * Enabled users to see which subreddits a page has been submitted to,
+       vote and comment on the submissions, and re-submit the page to
+       another subreddit.
+     * Implemented the HTML5 notification API to provide desktop
+       notifications of private messages.
+     * Provided I18N using the Google Chrome extension API, enabling
+       non-English speakers to use the extension in their native language.
+     * Created a marketing website to promote the extension.
+     * Developed an object-oriented JavaScript application documented in
+       ScriptDoc, and released it under an open source license, all to
+       facilitate community development.
 
     Technologies
 
-     * HTML
+     * HTML5
      * CSS
+     * JSON
      * Object-Oriented JavaScript
      * Chrome Extension API
      * reddit.com API
