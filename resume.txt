@@ -243,19 +243,3 @@ Work History
 
    I worked as an I.T. Specialist for the Office of Residence Life for a
    semester, helping them launch their new online housing portal.
-
-Education
-
-  Southeast Missouri State University
-
-    Commercial Photography
-
-   2008 – 2011
-
-   I did not complete my degree at Southeast Missouri State University,
-   because I felt the Commercial Photography degree was not right for me.
-   I wanted to learn more about modern web development, and since the
-   University did not have an appropriate program, I left and began
-   self-education.
-     * Co-founder, Secular Student Association
-     * Member, Student Photography Association
