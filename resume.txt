@@ -36,29 +36,15 @@ Skills
 
      * Sinatra
      * jQuery
-     * Ember.js (basic)
-     * Ruby on Rails (basic)
-
-  UI Kits
-
-     * Bourbon
-     * Compass
      * Twitter Bootstrap
      * ZURB Foundation
 
   Software
 
-     * Unix
+     * git scm
      * vim & tmux
      * IntelliJ IDEA
      * Adobe Photoshop
-
-  Methodologies
-
-     * Usability & UX
-     * Responsive design
-     * Browser compatibility
-     * Version control (git)
 
 Projects
 
