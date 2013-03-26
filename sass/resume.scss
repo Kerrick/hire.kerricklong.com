@@ -85,7 +85,7 @@ abbr[title] {
   address {
     font-style: normal;
     margin-bottom: 0.5em;
-    .street-address, br {
+    .street-address, br, .postal-code {
       display: none;
     }
   }
@@ -165,4 +165,5 @@ footer {
 
 @import "small-screens";
 @import "big-screens";
+@import "print";
 
