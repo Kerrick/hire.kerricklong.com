@@ -1,6 +1,6 @@
                                   Kerrick Long
 
-Web developer
+web developer
 
 
     531 Columbine Street
@@ -28,9 +28,9 @@ Skills
   Languages
 
      * Ruby
-     * JavaScript
      * CSS & Sass
      * (x)HTML & Haml
+     * JavaScript & CoffeeScript
 
   Frameworks
 
