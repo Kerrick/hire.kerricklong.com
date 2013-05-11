@@ -1,16 +1,16 @@
                                   Kerrick Long
 
-web developer
+Web developer
 
 
-    531 Columbine Street
-    Cape Girardeau, MO 63701
+    1405 Pine Street Apt. 303
+    St. Louis, MO 63701
 
    me@kerricklong.com (573) 200-6339
 
 Summary
 
-   With four years of experience in a combination of back- and front-end
+   With five years of experience in a combination of back- and front-end
    web development, an eye for user interface design, and a passion for
    learning, I bridge the gap between design and programming. I strive to
    make the web usable and accessible to all with open source, web
@@ -18,10 +18,9 @@ Summary
 
 Availability
 
-   I am available for hire. If you'd like to hire me on contract for a
-   project, please feel free to call me or send me an email. If you are
-   interested in hiring me full-time, I am willing to field offers in the
-   Kansas City, Missouri and St. Louis, Missouri areas.
+   I am happily employed at Second Street Media, Inc. If youad like to
+   hire me on contract for a freelance project, please feel free to call
+   me or send me an email.
 
 Skills
 
@@ -51,13 +50,13 @@ Projects
   Website: Southeast Missouri State University
 
    Pioneered the comprehensive 2011 redesign of Southeast Missouri State
-   University's website while working for Web Design & Support.
+   Universityas website while working for Web Design & Support.
 
     Duties
 
      * Developed semantic, well-formed and standards-compliant HTML for
        RedDot CMS, enabling impaired users to use screen readers and
-       improving the entire site's SEO.
+       improving the entire siteas SEO.
      * Wrote well-documented, modular, cascading and reusable CSS,
        improving the maintainability of the codebase for all other current
        and future developers.
@@ -166,7 +165,7 @@ Projects
      * Developed a ruby application using Sinatra that enabled the
        photographer to blog by simply editing markdown files.
      * Created a customized web proxy to provide white-labeled virtual
-       tours on the photographer's domain name.
+       tours on the photographeras domain name.
 
     Technologies
 
@@ -179,6 +178,18 @@ Projects
 
 Work History
 
+  Front-end web developer
+
+    Second Street Media, Inc.
+
+   May 2013 - Present
+     * Participate in the design and development of white-label web
+       software
+     * Employ best practices in user experience design and front-end web
+       development
+     * Develop across browsers and UI paradigms to make our clients
+       productive and profitable
+
   Web developer
 
     Self-Employed
@@ -186,9 +197,9 @@ Work History
    June 2008 - Present
      * Design, code, and implement websites for clients including small
        businesses and individuals
-     * Work with various APIs and existing systems
      * Develop open source and proprietary software to fulfill internal
        and client needs
+     * Work with various APIs and existing systems
 
   Real estate photographer
 
