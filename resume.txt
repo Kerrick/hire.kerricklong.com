@@ -35,8 +35,8 @@ Skills
 
      * Sinatra
      * jQuery
-     * Twitter Bootstrap
-     * ZURB Foundation
+     * Ember (beginning)
+     * Bootstrap & Foundation
 
   Software
 
