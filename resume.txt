@@ -26,24 +26,24 @@ Skills
 
   Languages
 
-     * Ruby
      * CSS & Sass
-     * (x)HTML & Haml
+     * Ruby & Haml
+     * HTML & Handlebars
      * JavaScript & CoffeeScript
 
   Frameworks
 
-     * Sinatra
-     * jQuery
-     * Ember (beginning)
-     * Bootstrap & Foundation
+     * Rake & Sinatra
+     * QUnit & Jasmine
+     * jQuery & Underscore
+     * Ember.js & Backbone.js
 
   Software
 
-     * git scm
      * vim & tmux
-     * IntelliJ IDEA
-     * Adobe Photoshop
+     * npm & Grunt
+     * git scm & TFS
+     * Chrome dev tools
 
 Projects
 
@@ -184,9 +184,9 @@ Work History
 
    May 2013 - Present
      * Participate in the design and development of white-label web
-       software
-     * Employ best practices in user experience design and front-end web
-       development
+       software using agile practices
+     * Employ industry best practices in user experience design and
+       front-end web development
      * Develop across browsers and UI paradigms to make our clients
        productive and profitable
 
