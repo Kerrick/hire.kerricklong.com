@@ -88,8 +88,7 @@ def on_change_of_folder(folder, &block)
       end
     end
     callback.call nil, nil, nil
-    listener = Listen.to folder
-    listener.change &callback
+    listener = Listen.to folder, &callback
     listener.start
   rescue Interrupt
     listener.stop

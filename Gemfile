@@ -1,3 +1,4 @@
 source "https://rubygems.org"
 gem "bourbon", "~>3.1"
-gem "listen", "~>0.7"
+gem "listen", "~>3.0"
+gem "rake", "~>10.3"

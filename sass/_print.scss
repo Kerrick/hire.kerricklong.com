@@ -63,7 +63,7 @@
       float: left;
     }
   }
-  #projects article, #work-history article {
+  #projects article, #work-history article, #libraries article {
     page-break-inside: avoid;
   }
   .company a { @extend %no-print-url; }

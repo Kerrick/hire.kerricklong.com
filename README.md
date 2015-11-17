@@ -9,7 +9,9 @@ they are awesome.
 
 Edit the files in `sass/`, not `css/`. Edit `index.html`, not `resume.txt`.
 
-While hacking, `rake watch`.
+Before hacking, `bundle install`.
 
-After hacking, `rake compile`. Or if pushing to github, `rake deploy`.
+While hacking, `bundle exec rake watch`.
+
+After hacking, `bundle exec rake compile`. Or if pushing to github, `bundle exec rake deploy`.
 
