@@ -1,6 +1,6 @@
                                   Kerrick Long
 
-Web developer
+Web Developer
 
 
     2708 Geyer Ave.
@@ -10,45 +10,25 @@ Web developer
 
 Summary
 
-   Iam passionate about solving problems. An ideal day might include
-   helping my peers fix a bug, fulfilling a customeras value demand,
-   teaching others what I know, and hopefully making a difference in the
-   world along the way. I love developing software that directly improves
-   the lives of those who use it.
+   I'm passionate about solving problems, both through products and
+   process improvement. I love to ship software that uplifts people and
+   brings them together, and I love doing it with a team working at peak
+   efficiency. I believe we choose what we build and how we build it, so
+   let's make the right choices and make a difference in this world.
 
-Skills
+Employment History
 
-  Languages
-
-     * CSS & Sass
-     * ES 6 & JavaScript
-     * Ruby & CoffeeScript
-
-  Frameworks
-
-     * QUnit & Jasmine
-     * jQuery & Underscore
-     * Ember.js & ember-cli
-
-  Software
-
-     * npm & Grunt
-     * git scm & GitHub
-     * Chrome Dev Tools
-
-Work History
-
-  Lead front-end developer
+  Lead Front-End Developer
 
     Second Street
 
    December 2013 - Present
+     * Lead the development and maintenance of a suite of front-end web
+       applications
      * Identify and eliminate roadblocks, process bottlenecks, and other
        inefficiencies
-     * Lead the development and maintenance of a suite of five front-end
-       web applications
-     * Mentor and train junior developers, helping them improve their
-       skills and productivity
+     * Mentor and train junior developers, improving their skills and
+       productivity
 
   Front-end web developer
 
@@ -62,7 +42,7 @@ Work History
      * Develop across browsers and UI paradigms to make our clients
        productive and profitable
 
-  Web developer
+  Web Developer
 
     Self-Employed
 
@@ -78,46 +58,54 @@ Work History
     Southeast Missouri State University
 
    September 2009 - September 2011
+     * Triage internal support requests for the web team
      * Design and maintain virtual campus tour interface
-     * Design, code, and help implement comprehensive website redesign
-     * Create digital art assets in Adobe Photoshop
-     * Work in a corporate environment with style guides, official logos
-       and colors, and more
+     * Develop and help design comprehensive website redesign
 
 Projects
+
+  Library: Talker.js
+
+   Developed a JavaScript library to provide a Promise-based interface to
+   postMessage for communication across frames.
 
   Application: Second Street Platform
 
    Led the front-end team developing a multi-faceted software platform
-   that allows our customers to create contests, promotions, and messaging
-   to engage their users.
+   that allows our customers to create contests and promotions, analyze
+   and segment their user data, and send messages based on interest and
+   interaction.
 
-    Technologies
+    Duties
 
-     * HTML
-     * Handlebars
-     * CSS
-     * Sass
-     * Compass
-     * JavaScript
-     * ES 2015
-     * jQuery
-     * Ember.js
-     * Ember CLI
-     * Liquid Fire
-     * Twitter API
-     * Facebook OpenGraph API
+     * Built and led the front-end development team for five Ember.js
+       applications, the largest of which is over 24 KLOC of JavaScript
+       across over 100 routes.
+     * Created dynamic single-site apps for consumers to enter promotions
+       and engage with content, including sweepstakes, quizzes, and
+       surveys
+     * Developed a dynamic form builder with drag-and-drop configuration.
+     * Helped develop a website & email template designer that supports
+       dynamic template elements, live previews, and more.
+     * Created a JavaScript library for embedding content within partners'
+       sites, synchronizing the URL, third-party storage, frame size, and
+       more.
+
+  Application: Second Street CLI
+
+   Created an internal command-line tool to eliminate developer meta work
+   by integrating Trello and GitHub.
 
   Website: Southeast Missouri State University
 
    Pioneered the comprehensive 2011 redesign of Southeast Missouri State
-   Universityas website while working for Web Design & Support.
+   University's website while working for Web Design & Support.
 
     Duties
 
      * Developed semantic HTML and well-documented, modular, and reusable
        CSS for RedDot CMS, enabling impaired users to use screen readers
-       and improving the entire siteas SEO and improving the
+       and improving the entire site's SEO and improving the
        maintainability of the codebase.
      * Used progressive enhancement techniques that perform well across
        browsers, keeping compatibility with older browsers while enabling
@@ -133,47 +121,3 @@ Projects
      * Facilitated department control over the content of their sections
        of the University website by optimizing CSS to handle unpredictable
        HTML.
-
-    Technologies
-
-     * HTML5
-     * CSS3
-     * JavaScript
-     * jQuery
-     * RedDot CMS (AKA OpenText)
-     * Adobe Photoshop
-     * Twitter API
-     * Facebook API
-     * YouTube API
-
-  Chrome Extension: Mostly Harmless
-
-   Developed a Google Chrome browser extension to enable users of the
-   reddit.com news sharing site to take the social experience to every
-   webpage they visit.
-
-    Duties
-
-     * Allowed users to see at-a-glance if the page they are viewing has
-       been submitted.
-     * Enabled users to see which subreddits a page has been submitted to,
-       vote and comment on the submissions, and re-submit the page to
-       another subreddit.
-     * Implemented the HTML5 notification API to provide desktop
-       notifications of private messages.
-     * Provided I18N using the Google Chrome extension API, enabling
-       non-English speakers to use the extension in their native language.
-     * Created a marketing website to promote the extension.
-     * Developed an object-oriented JavaScript application documented in
-       ScriptDoc, and released it under an open source license, all to
-       facilitate community development.
-
-    Technologies
-
-     * HTML5
-     * HTML5 notifications
-     * CSS
-     * JSON
-     * Object-Oriented JavaScript
-     * Chrome Extension API
-     * reddit.com API

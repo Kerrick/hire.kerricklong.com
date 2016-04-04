@@ -62,6 +62,10 @@ abbr[title] {
   letter-spacing: 1px;
   text-decoration: none;
   border: 0;
+  &.caps {
+    letter-spacing: 0.5px;
+    font-size: 0.85em;
+  }
 }
 
 #masthead {
@@ -97,9 +101,6 @@ abbr[title] {
 body > section {
   border-bottom: 1px solid $border-color;
   padding: 1em 0;
-}
-abbr.dreyfus {
-  font-size: 0.8em;
 }
 article.project, article.work, article.library {
   margin-bottom: 2em;
