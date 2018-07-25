@@ -6,17 +6,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://fonts.googleapis.com/css?family=Habibi" rel="stylesheet" type="text/css">
-    <link href="./css/resume.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header id="masthead" class="vcard"> <!-- http://microformats.org/wiki/hcard -->
-      <hgroup>
-        <h1>
-          <a href="https://kerricklong.com/" class="url fn">Kerrick Long</a>
-        </h1>
-        <h2 class="tagline">Web Developer</h2>
-      </hgroup>
-      <section id="contact">
+    <header class="masthead" class="vcard"> <!-- http://microformats.org/wiki/hcard -->
+      <h1 class="name">
+        <a href="https://kerricklong.com/" class="url fn">Kerrick Long</a>
+      </h1>
+      <h2 class="tagline">Software Engineer</h2>
+      <div class="masthead__contact">
         <address class="adr">
           <span class="street-address">2708 Geyer <abbr title="Avenue">Ave.</abbr></span>
           <br />
@@ -26,223 +24,249 @@
         </address>
         <a href="mailto:me@kerricklong.com" class="email">me@kerricklong.com</a>
         <a href="tel:+15732006339" class="tel">(573) 200-6339</a>
-      </section>
+      </div>
     </header>
-    <section id="summmary">
-      <header>
-        <h2>Summary</h2>
-      </header>
+    <div id="summmary" class="resume-block">
+      <h2 class="resume-block__header">Summary</h2>
       <p>
         I&rsquo;m passionate about solving problems, both through products and
         process improvement. I love to ship software that uplifts people and
         brings them together, and I love doing it with a team working at
         peak efficiency. I believe we choose what we build and how we build
-        it, so let&rsquo;s make the right choices and make a difference in this world.
+        it, so let&rsquo;s make the right choices and make a difference.
       </p>
-    </section>
-    <section id="work-history">
-      <header>
-        <h2>Employment History</h2>
-      </header>
-      <article class="work">
-        <hgroup>
-          <h3 class="title">Lead Front-End Developer</h3>
-          <h4 class="company">
-            <a href="http://secondstreet.com/">Second Street</a>
-          </h4>
-        </hgroup>
-        <p class="dates">
-          <time datetime="2013-12">December 2013</time>
+    </div>
+    <div id="work-history" class="resume-block">
+      <h2 class="resume-block__header">Employment History</h2>
+      <div class="work">
+        <header class="work__header">
+          <h3 class="work__title">Front-End Engineering Tech Lead</h3>
+          <a class="work__company" href="http://secondstreet.com/">Second Street</a>
+        </header>
+        <p class="work__dates">
+          <time datetime="2013-05">May 2013</time>
           &ndash;
-          <time datetime="2015-11">Present</time>
+          <time datetime="2018-07">Present</time>
         </p>
-        <ul class="duties">
+        <ul class="work__duties">
           <li>Lead the development and maintenance of a suite of front-end web applications</li>
           <li>Identify and eliminate roadblocks, process bottlenecks, and other inefficiencies</li>
           <li>Mentor and train junior developers, improving their skills and productivity</li>
         </ul>
-      </article>
-      <article class="work">
-        <hgroup>
-          <h3 class="title">Front-end web developer</h3>
-          <h4 class="company">
-            <a href="http://secondstreet.com/">Second Street</a>
-          </h4>
-        </hgroup>
-        <p class="dates">
-          <time datetime="2013-05">May 2013</time>
-          &ndash;
-          <time datetime="2013-12">December 2013</time>
-        </p>
-        <ul class="duties">
-          <li>Participate in the design and development of white-label software using agile practices</li>
-          <li>Employ industry best practices in user experience design and front-end web development</li>
-          <li>Develop across browsers and <abbr class="caps" title="User Interface">UI</abbr> paradigms to make our clients productive and profitable</li>
-        </ul>
-      </article>
-      <article class="work">
-        <hgroup>
-          <h3 class="title">Web Developer</h3>
-          <h4 class="company">
-            <a href="http://zaltin.com/">Self-Employed</a>
-          </h4>
-        </hgroup>
-        <p class="dates">
+        <div class="projects">
+          <h4 class="projects__header">Selected Projects</h4>
+          <ul class="projects__list">
+            <li class="projects__project project">
+              <h5 class="project__title"><a rel="noreferrer" href="https://secondstreet.com/platform/">Engagement Platform</a></h5>
+              <p class="project__description">
+                Led the front-end team developing a multi-faceted software platform
+                that allows our customers to create contests and promotions, analyze
+                and segment their user data, and send email campaigns based on interest
+                and interaction.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">JavaScript (<abbr title="ECMAScript 2018"><abbr title="ECMAScript 2018">ES6+</abbr></abbr>)</li>
+                <li class="tech__item">Sass</li>
+                <li class="tech__item">Ember.js</li>
+                <li class="tech__item">React.js</li>
+                <li class="tech__item">Webpack</li>
+                <li class="tech__item">QUnit</li>
+                <li class="tech__item">Jest</li>
+              </ul>
+              <ul class="project__highlights">
+                <li class="project__highlight">
+                  Built, iterated upon, and maintained an enterprise-level web application
+                  with 24 <abbr class="caps" title="Thousand Lines of Code">KLOC</abbr> of
+                  JavaScript across over 100 routes.
+                </li>
+                <li class="project__highlight">
+                  Created a JavaScript library for embedding content within
+                  partners&rsquo; sites, synchronizing the
+                  <abbr class="caps" title="Uniform Resource Locator">URL</abbr>,
+                  third-party storage, frame size, and more.
+                </li>
+                <li class="project__highlight">
+                  Developed a dynamic form builder with drag-and-drop configuration.
+                </li>
+                <li class="project__highlight">
+                  Helped develop a website &amp; email template designer that
+                  supports dynamic template elements, live previews, and more.
+                </li>
+              </ul>
+            </li>
+            <li class="projects__project project">
+              <h5 class="project__title">Contests &amp; Promotions</h5>
+              <p class="project__description">
+                Built, iterated upon, and maintained a suite of five web applications
+                that were deployed statically, configured dynamically, and served
+                thousands of clients from one deployment.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">JavaScript (<abbr title="ECMAScript 2018">ES6+</abbr>)</li>
+                <li class="tech__item">Sass</li>
+                <li class="tech__item">Ember.js</li>
+                <li class="tech__item">QUnit</li>
+              </ul>
+            </li>
+            <li class="projects__project project">
+              <h5 class="project__title">OpenGraph URL Shortener</h5>
+              <p class="project__description">
+                Built an <abbr title="Application Programming Interface">API</abbr>-integrated
+                microservice with <abbr title="Test-Driven Development">TDD</abbr>
+                for OpenGraph sharing to adapt to the changing requirements of the
+                Facebook sharing platform.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">TypeScript</li>
+                <li class="tech__item">Node.js</li>
+                <li class="tech__item">Express</li>
+                <li class="tech__item">Jest</li>
+              </ul>
+            </li>
+            <li class="projects__project project">
+              <h5 class="project__title"><a rel="noreferrer" href="https://github.com/secondstreet/ember-material-components-web">MDC Ember</a></h5>
+              <p class="project__description">
+                Created an open source Ember Addon that tightly integrates Google&rsquo;s
+                <a href="https://material.io/develop/web/">Material Web Components</a>
+                into Ember.js, including coordination of releases, community stewardship,
+                issue triage, and more.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">JavaScript (<abbr title="ECMAScript 2018">ES6+</abbr>)</li>
+                <li class="tech__item">Ember <abbr title="Command Line Interface">CLI</abbr></li>
+                <li class="tech__item">Ember.js</li>
+                <li class="tech__item">QUnit</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="work">
+        <header class="work__header">
+          <h3 class="work__title">Software Engineer</h3>
+          <a class="work__company" href="https://kerricklong.com/">Self-Employed</a>
+        </header>
+        <p class="work__dates">
           <time datetime="2008-06">June 2008</time>
           &ndash;
           <time datetime="2013-05">May 2013</time>
+          &amp;
+          <time datetime="2018-07">Intermittently</time>
         </p>
-        <ul class="duties">
-          <li>Design, code, and deploy websites for clients including small businesses and individuals</li>
+        <ul class="work__duties">
+          <li>Design, code, and deploy websites, web applications, and mobile apps for clients</li>
           <li>Develop open source and proprietary software to fulfill internal and client needs</li>
           <li>Work with various <abbr class="caps" title="Application Programming Interface">API</abbr>s and existing systems</li>
         </ul>
-      </article>
-      <article class="work">
-        <hgroup>
-          <h3 class="title">Student developer, web design &amp; support</h3>
-          <h4 class="company">
-            <a href="http://www.semo.edu/">Southeast Missouri State University</a>
-          </h4>
-        </hgroup>
-        <p class="dates">
+        <div class="projects">
+          <h4 class="projects__header">Selected Projects</h4>
+          <ul class="projects__list">
+            <li class="projects__project project">
+              <h5 class="project__title">Tonify Prototype</h5>
+              <p class="project__description">
+                Created an Android application, a web <abbr title="Application Programming Interface">API</abbr>, and a Zapier app to trigger custom audio notifications as the result of a trigger from hundreds of external services.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">JavaScript (<abbr title="ECMAScript 2018">ES6+</abbr>)</li>
+                <li class="tech__item">React Native</li>
+                <li class="tech__item">Firebase</li>
+                <li class="tech__item">Node.js</li>
+                <li class="tech__item">Express</li>
+                <li class="tech__item">Zapier Platform</li>
+              </ul>
+            </li>
+            <li class="projects__project project">
+              <h5 class="project__title"><a href="http://melodicmorse.com/">Melodic Morse</a></h5>
+              <p class="project__description">
+                Created a web app to automatically mix audio to generate ringtones based on the Morse code representation of any text.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">Ruby</li>
+                <li class="tech__item">Sinatra</li>
+                <li class="tech__item">ffmpeg</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="work">
+        <header class="work__header">
+          <h3 class="work__title">Student Developer</h3>
+          <a class="work__company" href="https://www.semo.edu/">Southeast Missouri State University</a>
+        </header>
+        <p class="work__dates">
           <time datetime="2009-09">September 2009</time>
           &ndash;
           <time datetime="2011-09">September 2011</time>
         </p>
-        <ul class="duties">
+        <ul class="work__duties">
           <li>Triage internal support requests for the web team</li>
           <li>Design and maintain virtual campus tour interface</li>
           <li>Develop and help design comprehensive website redesign</li>
         </ul>
-      </article>
-    </section>
-    <section id="projects">
-      <header>
-        <h2>Projects</h2>
-      </header>
-      <article class="project library">
-        <h3>Library:
-          <a href="https://github.com/secondstreet/talker.js">Talker.js</a>
-        </h3>
-        <p class="description">
-          Developed a JavaScript library to provide a Promise-based interface
-          to <code>postMessage</code> for communication across frames.
-        </p>
-      </article>
-      <article class="project application">
-        <h3>Application:
-          <a href="http://secondstreet.com/platform/">Second Street Platform</a>
-        </h3>
-        <p class="description">
-          Led the front-end team developing a multi-faceted software platform
-          that allows our customers to create contests and promotions, analyze
-          and segment their user data, and send messages based on interest and
-          interaction.
-        </p>
-        <section class="duties">
-          <h4>Duties</h4>
-          <ul>
-            <li>
-              Built and led the front-end development team for five Ember.js
-              applications, the largest of which is over 24
-              <abbr class="caps" title="Thousand Lines of Code">KLOC</abbr> of JavaScript
-              across over 100 routes.
-            </li>
-            <li>
-              Created dynamic single-site apps for consumers to enter promotions
-              and engage with content, including sweepstakes, quizzes, and surveys
-            </li>
-            <li>
-              Developed a dynamic form builder with drag-and-drop configuration.
-            </li>
-            <li>
-              Helped develop a website &amp; email template designer that
-              supports dynamic template elements, live previews, and more.
-            </li>
-            <li>
-              Created a JavaScript library for embedding content within
-              partners&rsquo; sites, synchronizing the
-              <abbr class="caps" title"Uniform Resource Locator">URL</abbr>, third-party
-              storage, frame size, and more.
+        <div class="projects">
+          <h4 class="projects__header">Selected Projects</h4>
+          <ul class="projects__list">
+            <li class="projects__project project">
+              <h5 class="project__title"><a href="http://web.archive.org/web/20120204211053/http://www.semo.edu/">Southeast Website</a></h5>
+              <p class="project__description">
+                Pioneered the comprehensive 2011 redesign of Southeast Missouri
+                State University&rsquo;s website while working for Web Design &amp;
+                Support.
+              </p>
+              <ul class="project__tech tech">
+                <li class="tech__item">JavaScript</li>
+                <li class="tech__item">jQuery</li>
+                <li class="tech__item">CSS</li>
+              </ul>
+              <ul class="project__highlights">
+                <li class="project__highlight">
+                  Developed semantic
+                  <abbr class="caps" title="HyperText Markup Language">HTML</abbr>
+                  and well-documented, modular, and reusable
+                  <abbr class="caps" title="Cascading StyleSheets">CSS</abbr> for RedDot
+                  <abbr class="caps" title="Content Management System">CMS</abbr>, enabling
+                  impaired users to use screen readers and improving the entire
+                  site&rsquo;s <abbr class="caps" title="Search Engine Optimization">SEO</abbr>
+                  and improving the maintainability of the codebase.
+                </li>
+                <li class="project__highlight">
+                  Used progressive enhancement techniques that perform well across
+                  browsers, keeping compatibility with older browsers while
+                  enabling an enhanced experience for users with modern browsers.
+                </li>
+                <li class="project__highlight">
+                  Created rich media elements to improve the appeal and function
+                  of department sites, including dynamic calendar and
+                  <abbr class="caps" title="Really Simple Syndication">RSS</abbr> widgets, image
+                  and video sliders, and social integration using the Twitter,
+                  Facebook, and YouTube
+                  <abbr class="caps" title="Application Programming Interface">API</abbr>s.
+                </li>
+              </ul>
             </li>
           </ul>
-        </section>
-      </article>
-      <article class="project application">
-        <h3>Application:
-          Second Street <abbr class="caps" title="Command Line Interface">CLI</a>
-        </h3>
-        <p class="description">
-          Created an internal command-line tool to eliminate developer meta
-          work by integrating Trello and GitHub.
-        </p>
-      </article>
-      <article class="project website">
-        <h3>Website:
-          <a href="http://web.archive.org/web/20111004170625/http://www.semo.edu/">Southeast Missouri State University</a>
-        </h3>
-        <p class="description">
-          Pioneered the comprehensive 2011 redesign of Southeast Missouri
-          State University&rsquo;s website while working for Web Design &amp;
-          Support.
-        </p>
-        <section class="duties">
-          <h4>Duties</h4>
-          <ul>
-            <li>
-              Developed semantic
-              <abbr class="caps" title="HyperText Markup Language">HTML</abbr>
-              and well-documented, modular, and reusable
-              <abbr class="caps" title="Cascading StyleSheets">CSS</abbr> for RedDot
-              <abbr class="caps" title="Content Management System">CMS</abbr>, enabling
-              impaired users to use screen readers and improving the entire
-              site&rsquo;s <abbr class="caps" title="Search Engine Optimization">SEO</abbr>
-              and improving the maintainability of the codebase.
-            </li>
-            <li>
-              Used progressive enhancement techniques that perform well across
-              browsers, keeping compatibility with older browsers while
-              enabling an enhanced experience for users with modern browsers.
-            </li>
-            <li>
-              Created rich media elements to improve the appeal and function
-              of department sites, including dynamic calendar and
-              <abbr class="caps" title="Really Simple Syndication">RSS</abbr> widgets, image
-              and video sliders, and social integration using the Twitter,
-              Facebook, and YouTube
-              <abbr class="caps" title="Application Programming Interface">API</abbr>s.
-            </li>
-            <li>
-              Improved navigation by using a study of visitor flow, featuring
-              the most often-visited links prominently on the home page, and
-              placing the most often-visited site sections in site-wide
-              persistent navigation.
-            </li>
-            <li>
-              Facilitated department control over the content of their sections
-              of the University website by optimizing
-              <abbr class="caps" title="Cascading StyleSheets">CSS</abbr> to handle
-              unpredictable <abbr class="caps" title="HyperText Markup Language">HTML</abbr>.
-            </li>
-          </ul>
-        </section>
-      </article>
-    </section>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a href="https://github.com/Kerrick/hire.kerricklong.com">View source on github</a>
-          </li>
-          <li>
-            <a href="/resume.txt">View in plain text (.<abbr title="Text">txt</abbr>)</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/kerricklong">View my LinkedIn profile</a>
-          </li>
-        </ul>
-      </nav>
+        </div>
+      </div>
+    </div>
+    <footer class="colophon">
+      <ul class="colophon__links">
+        <li class="colophon__link">
+          <a href="/resume.txt">Plain Text</a>
+        </li>
+        <li class="colophon__link">
+          <a href="https://github.com/Kerrick">GitHub</a>
+        </li>
+        <li class="colophon__link">
+          <a href="https://www.linkedin.com/in/kerricklong">LinkedIn</a>
+        </li>
+        <li class="colophon__link">
+          <a href="https://www.twitter.com/KerrickLong">Twitter</a>
+        </li>
+        <li class="colophon__link">
+          <a href="https://speakerdeck.com/Kerrick">Speakerdeck</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

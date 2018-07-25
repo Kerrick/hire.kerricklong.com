@@ -1,0 +1,136 @@
+:root {
+  --color-ink: #444;
+  --color-muted-ink: #888;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+}
+
+body {
+  font: 16px/1.4 "Habibi", serif;
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: var(--color-ink);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+}
+a:link, a:active {
+  color: #1a0dab;
+}
+a:visited {
+  color: #609;
+}
+@media print {
+  a:link, a:active, a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+abbr {
+  font-variant-caps: all-small-caps;
+}
+
+.masthead {
+  margin: 1rem 0 0;
+  font-family: var(--font-sans);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.url, .url:link, .url:visited {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+.name {
+  margin: 0;
+}
+.tagline {
+  display: none;
+}
+.adr {
+  display: none;
+}
+.email, .tel {
+  text-decoration: none;
+  display: block;
+}
+
+.resume-block {}
+.resume-block__header {
+  font-size: 1.618rem;
+}
+
+.work {
+  margin: 0 0 3rem;
+}
+.work__title {
+  font-size: 1.309rem;
+  margin: 0;
+}
+.work__company {
+  font-style: italic;
+}
+.work__duties {
+  page-break-inside: avoid;
+}
+
+.projects {}
+.projects__header {
+  font-size: 1.15rem;
+}
+.projects__project {
+  border-left: 2px solid var(--color-muted-ink);
+  padding: 0 1rem;
+}
+.projects__list {
+  list-style: none;
+  padding: 0;
+}
+.projects__project {
+  margin: 0 0 1rem;
+}
+
+.project {
+  page-break-inside: avoid;
+}
+.project__title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.tech {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+.tech__item {
+  display: inline-block;
+}
+.tech__item:not(:last-child):after {
+  content: ",";
+}
+
+.colophon {
+  margin-top: 3rem;
+  font-family: var(--font-sans);
+  opacity: 0.5;
+  transition: opacity 0.25s ease-in-out;
+}
+@media print {
+  .colophon {
+    display: none;
+  }
+}
+.colophon:hover {
+  opacity: 1;
+}
+.colophon__links {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9ch, 1fr));
+  grid-gap: 1rem;
+  text-align: center;
+}
