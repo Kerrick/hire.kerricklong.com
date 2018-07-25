@@ -23,45 +23,29 @@ Front-End Engineering Tech Lead
    Second Street
 
    May 2013 - Present
-     * Lead the development and maintenance of a suite of front-end web
+     * Led the architecture and development of a suite of front-end web
        applications
-     * Identify and eliminate roadblocks, process bottlenecks, and other
-       inefficiencies
-     * Mentor and train junior developers, improving their skills and
+     * Identified and eliminated roadblocks, process bottlenecks, and
+       other inefficiencies
+     * Mentored and trained junior developers, improving their skills and
        productivity
 
 Selected Projects
 
      * Engagement Platform
-       Led the front-end team developing a multi-faceted software platform
-       that allows our customers to create contests and promotions,
-       analyze and segment their user data, and send email campaigns based
-       on interest and interaction.
+       Led the front-end engineering team developing a platform that
+       allows our customers to create contests and promotions, analyze and
+       segment their user data, and send email campaigns based on interest
+       and interaction.
           + JavaScript (ES6+)
           + Sass
           + Ember.js
           + React.js
+          + Lodash
           + Webpack
           + QUnit
           + Jest
-          + Built, iterated upon, and maintained an enterprise-level web
-            application with 24 KLOC of JavaScript across over 100 routes.
-          + Created a JavaScript library for embedding content within
-            partners' sites, synchronizing the URL, third-party storage,
-            frame size, and more.
-          + Developed a dynamic form builder with drag-and-drop
-            configuration.
-          + Helped develop a website & email template designer that
-            supports dynamic template elements, live previews, and more.
-     * Contests & Promotions
-       Built, iterated upon, and maintained a suite of five web
-       applications that were deployed statically, configured dynamically,
-       and served thousands of clients from one deployment.
-          + JavaScript (ES6+)
-          + Sass
-          + Ember.js
-          + QUnit
-     * OpenGraph URL Shortener
+     * OpenGraph Microservice
        Built an API-integrated microservice with TDD for OpenGraph sharing
        to adapt to the changing requirements of the Facebook sharing
        platform.
@@ -69,29 +53,22 @@ Selected Projects
           + Node.js
           + Express
           + Jest
-     * MDC Ember
-       Created an open source Ember Addon that tightly integrates Google's
-       Material Web Components into Ember.js, including coordination of
-       releases, community stewardship, issue triage, and more.
-          + JavaScript (ES6+)
-          + Ember CLI
-          + Ember.js
-          + QUnit
 
 Software Engineer
 
    Self-Employed
 
    June 2008 - May 2013 & Intermittently
-     * Design, code, and deploy websites, web applications, and mobile
-       apps for clients
-     * Develop open source and proprietary software to fulfill internal
+     * Designed, developed, and deployed websites, web applications, and
+       mobile apps for clients
+     * Developed open source and proprietary software to fulfill internal
        and client needs
-     * Work with various APIs and existing systems
+     * Discovered requirements through user experience research balanced
+       with business needs
 
 Selected Projects
 
-     * Tonify Prototype
+     * Tonify Alpha
        Created an Android application, a web API, and a Zapier app to
        trigger custom audio notifications as the result of a trigger from
        hundreds of external services.
@@ -113,30 +90,9 @@ Student Developer
    Southeast Missouri State University
 
    September 2009 - September 2011
-     * Triage internal support requests for the web team
-     * Design and maintain virtual campus tour interface
-     * Develop and help design comprehensive website redesign
-
-Selected Projects
-
-     * Southeast Website
-       Pioneered the comprehensive 2011 redesign of Southeast Missouri
-       State University's website while working for Web Design & Support.
-          + JavaScript
-          + jQuery
-          + CSS
-          + Developed semantic HTML and well-documented, modular, and
-            reusable CSS for RedDot CMS, enabling impaired users to use
-            screen readers and improving the entire site's SEO and
-            improving the maintainability of the codebase.
-          + Used progressive enhancement techniques that perform well
-            across browsers, keeping compatibility with older browsers
-            while enabling an enhanced experience for users with modern
-            browsers.
-          + Created rich media elements to improve the appeal and function
-            of department sites, including dynamic calendar and RSS
-            widgets, image and video sliders, and social integration using
-            the Twitter, Facebook, and YouTube APIs.
+     * Developed HTML and CSS for the 2011 website redesign
+     * Designed and maintained virtual campus tour interface
+     * Triaged internal support requests for the web team
 
      * Plain Text
      * GitHub
