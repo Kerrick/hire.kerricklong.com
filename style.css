@@ -1,14 +1,14 @@
 :root {
   --color-ink: #444;
-  --color-muted-ink: #888;
+  --color-muted-ink: #ccc;
   --font-sans: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
 }
 
 html {
-  font: 16px/1.4 "Habibi", serif;
+  font: 16px / 1.4 "Habibi", serif;
 }
 body {
-  max-width: 60ch;
+  max-width: 76ch;
   margin: 0 auto;
   padding: 0 1rem;
   color: var(--color-ink);
@@ -39,7 +39,6 @@ a:visited {
   }
 }
 abbr {
-  font-variant-caps: all-small-caps;
   text-decoration: none;
 }
 
@@ -81,11 +80,18 @@ abbr {
   margin: 0;
 }
 .work__company {
-  font-style: italic;
+  font-weight: bold;
+  text-underline-offset: 6px;
 }
 .work__duties {
+  padding: 0 0 0 1.5rem;
   page-break-inside: avoid;
 }
+.work__dates {
+  margin: 0 0 0.5rem;
+  font-style: italic;
+}
+
 @media print {
   .work {
     display: grid;
@@ -101,44 +107,44 @@ abbr {
   }
 }
 
-.projects {}
-.projects__header {
+.subpoints {}
+.subpoints__header {
   font-size: 1.15rem;
 }
-.projects__project {
+.subpoints__subpoint {
   border-left: 2px solid var(--color-muted-ink);
   padding: 0 1rem;
 }
-.projects__list {
+.subpoints__list {
   list-style: none;
   padding: 0;
 }
-.projects__project {
+.subpoints__subpoint {
   margin: 0 0 1rem;
 }
 @media print {
-  .projects__header {
+  .subpoints__header {
     display: none;
   }
-  .projects__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .projects__project:last-of-type {
-    grid-column-end: -1;
-  }
-
-  .projects__project:nth-of-type(2n + 1) {
-    grid-column-start: 1;
-  }
 }
 
-.project {
+.subpoint {
   page-break-inside: avoid;
 }
-.project__title {
+.subpoint__title {
   font-size: 1rem;
   margin: 0;
+}
+@media print {
+  .subpoint {
+    display: grid;
+    grid-template-columns: 1fr 38ch;
+  }
+  .subpoint__description,
+  .work__duties {
+    grid-column: 1 / span 2;
+    margin-top: 0;
+  }
 }
 
 .tech {

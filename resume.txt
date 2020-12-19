@@ -1,10 +1,10 @@
                                   Kerrick Long
 
-Software Engineer
+Director of Software Engineering
 
 
-    2708 Geyer Ave.
-    St. Louis, MO 63104
+    1810 W Mill St.
+    Buffalo, MO 65622
 
    me@kerricklong.com (573) 200-6339
 
@@ -18,84 +18,72 @@ Summary
 
 Employment History
 
-Front-End Engineering Tech Lead
+Second Street
 
-   Second Street
+     * Director of Software Engineering
+       December 2019 - Present
+       As Director of Software Engineering I lead the department with the
+       largest headcount at Second Street; software engineering and QA
+       managers report to me. Together we cultivate a strong engineering
+       culture of quality, velocity, and efficiency.
+          + Take ownership of implementation, testing, and maintenance for
+            Second Street's software platform
+          + Innovate processes to increase velocity, reduce waste, and
+            multiply productivity
+          + Advise technical and non-technical leadership on technical
+            product strategy
+     * Engineering Manager, Front-End Software Engineering
+       December 2018 - December 2019
+          + Recruit, hire, and train software engineers from junior to
+            senior level
+          + Identify and execute on opportunities to improve the software
+            development lifecycle and other processes
+          + Establish and steward mentorship programs, goal-setting, and
+            other career planning activities
+     * Lead Front-end Software Engineer
+       February 2015 - December 2018
+          + Lead the development and maintenance of a suite of front-end
+            web applications
+          + Identify and eliminate roadblocks, process bottlenecks, and
+            other inefficiencies
+          + Mentor and train junior developers, improving their skills and
+            productivity
+     * Senior Front-end Software Engineer
+       January 2014 - February 2015
+          + Mentor and train junior developers, improving their skills and
+            productivity
+          + Participate in the design and development of white-label web
+            software using agile practices
+          + Research and implement new best practices in front-end web
+            development
+     * Front-end Software Developer
+       May 2013 - January 2014
+          + Participate in the design and development of white-label web
+            software using agile practices
+          + Employ industry best practices in user experience design and
+            front-end web development
+          + Develop across browsers and UI paradigms to make our clients
+            productive and profitable
 
-   May 2013 - Present
-     * Led the architecture and development of a suite of front-end web
-       applications
-     * Identified and eliminated roadblocks, process bottlenecks, and
-       other inefficiencies
-     * Mentored and trained junior developers, improving their skills and
-       productivity
+Self-Employed
 
-Selected Projects
+     * Software Developer
+       June 2008 - May 2013 & Intermittently
+          + Design, code, and deploy websites for clients including small
+            businesses and individuals
+          + Develop open source and proprietary software to fulfill
+            internal and client needs
+          + Work with various APIs and existing systems
 
-     * Engagement Platform
-       Led the front-end engineering team developing a platform that
-       allows our customers to create contests and promotions, analyze and
-       segment their user data, and send email campaigns based on interest
-       and interaction.
-          + JavaScript (ES6+)
-          + Sass
-          + Ember.js
-          + React.js
-          + Lodash
-          + Webpack
-          + QUnit
-          + Jest
-     * OpenGraph Microservice
-       Built an API-integrated microservice with TDD for OpenGraph sharing
-       to adapt to the changing requirements of the Facebook sharing
-       platform.
-          + TypeScript
-          + Node.js
-          + Express
-          + Jest
+Southeast Missouri State University
 
-Software Engineer
-
-   Self-Employed
-
-   June 2008 - May 2013 & Intermittently
-     * Designed, developed, and deployed websites, web applications, and
-       mobile apps for clients
-     * Developed open source and proprietary software to fulfill internal
-       and client needs
-     * Discovered requirements through user experience research balanced
-       with business needs
-
-Selected Projects
-
-     * Tonify Alpha
-       Created an Android application, a web API, and a Zapier app to
-       trigger custom audio notifications as the result of a trigger from
-       hundreds of external services.
-          + JavaScript (ES6+)
-          + React Native
-          + Firebase
-          + Node.js
-          + Express
-          + Zapier Platform
-     * Melodic Morse
-       Created a web app to automatically mix audio to generate ringtones
-       based on the Morse code representation of any text.
-          + Ruby
-          + Sinatra
-          + ffmpeg
-
-Student Developer
-
-   Southeast Missouri State University
-
-   September 2009 - September 2011
-     * Developed HTML and CSS for the 2011 website redesign
-     * Designed and maintained virtual campus tour interface
-     * Triaged internal support requests for the web team
+     * Student Developer
+       September 2009 - September 2011
+          + Triage internal support requests for the web team
+          + Design and maintain virtual campus tour interface
+          + Develop and help design comprehensive website redesign
 
      * Plain Text
      * GitHub
      * LinkedIn
-     * Twitter
      * Speakerdeck
