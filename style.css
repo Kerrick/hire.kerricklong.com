@@ -14,20 +14,34 @@ body {
   color: var(--color-ink);
 }
 @media print {
+  :root {
+    --color-ink: #000;
+    --color-muted-ink: #888;
+  }
+  @page {
+    margin: 0.75in 0.5in;
+  }
   html {
     font-size: 12px;
   }
   body {
     max-width: unset;
-    margin: 0mm 4mm;
+    margin: 0;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
 }
+p {
+  margin: 0 0 1rem;
+}
 a:link, a:active {
   color: #1a0dab;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
 }
 a:visited {
   color: #609;
@@ -45,15 +59,22 @@ abbr {
 .masthead {
   margin: 1rem 0 0;
   font-family: var(--font-sans);
-  display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  text-align: center;
 }
-.url, .url:link, .url:visited {
-  color: var(--color-ink);
-  text-decoration: none;
+@media screen and (min-width: 480px) {
+  .masthead {
+    display: flex;
+    text-align: left;
+  }
 }
-.name {
+@media print {
+  .masthead {
+    margin: 0 0 1rem;
+  }
+}
+.vcard .n {
   margin: 0;
 }
 .tagline {
@@ -70,18 +91,38 @@ abbr {
 .resume-block {}
 .resume-block__header {
   font-size: 1.618rem;
+  margin: 2rem 0 0;
+}
+@media print {
+  .resume-block__header {
+    display: none;
+  }
 }
 
+@media print {
+  .resume-block {
+    margin: 3rem 0 0;
+  }
+}
 .work {
-  margin: 0 0 3rem;
+  margin: 0 0 2rem;
+}
+@media print {
+  .work {
+    margin: 0 0 1rem;
+  }
 }
 .work__title {
   font-size: 1.309rem;
-  margin: 0;
+  margin: 1rem 0 1rem;
+}
+@media print {
+  .work__title {
+    margin: 0.5rem 0 0.5rem;
+  }
 }
 .work__company {
   font-weight: bold;
-  text-underline-offset: 6px;
 }
 .work__duties {
   padding: 0 0 0 1.5rem;
@@ -92,25 +133,6 @@ abbr {
   font-style: italic;
 }
 
-@media print {
-  .work {
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    margin: 0 0 1rem;
-  }
-  .work > *:not(.work__header):not(.work__dates) {
-    grid-column: 1 / span 2;
-  }
-  .work__dates {
-    justify-self: end;
-    margin: 0;
-  }
-}
-
-.subpoints {}
-.subpoints__header {
-  font-size: 1.15rem;
-}
 .subpoints__subpoint {
   border-left: 2px solid var(--color-muted-ink);
   padding: 0 1rem;
@@ -118,14 +140,19 @@ abbr {
 .subpoints__list {
   list-style: none;
   padding: 0;
+  column-gap: 1em;
+  margin: 0 0 1rem;
+}
+@media print, screen and (min-width: 768px) {
+  .subpoints__list {
+    columns: 2;
+  }
 }
 .subpoints__subpoint {
   margin: 0 0 1rem;
 }
-@media print {
-  .subpoints__header {
-    display: none;
-  }
+.subpoints__subpoint:first-child {
+  column-span: all;
 }
 
 .subpoint {
@@ -134,17 +161,6 @@ abbr {
 .subpoint__title {
   font-size: 1rem;
   margin: 0;
-}
-@media print {
-  .subpoint {
-    display: grid;
-    grid-template-columns: 1fr 38ch;
-  }
-  .subpoint__description,
-  .work__duties {
-    grid-column: 1 / span 2;
-    margin-top: 0;
-  }
 }
 
 .tech {
@@ -179,7 +195,12 @@ abbr {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(9ch, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .colophon__links {
+    grid-template-columns: repeat(auto-fit, minmax(9ch, 1fr));
+  }
 }

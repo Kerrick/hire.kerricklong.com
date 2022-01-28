@@ -1,17 +1,12 @@
 # Kerrick Long's Resume
 
-Because why not put it on github?
+## Contributing
 
-Uses [Sass](http://sass-lang.com/) and [Bourbon](http://bourbon.io), because
-they are awesome.
+Edit `index.html`, not `resume.txt`.
 
-## Hacking
+Before developing locally, `bundle install` and make sure `lynx` is installed.
 
-Edit the files in `sass/`, not `css/`. Edit `index.html`, not `resume.txt`.
-
-Before hacking, `bundle install`.
-
-While hacking, `bundle exec rake watch`.
-
-After hacking, `bundle exec rake compile`. Or if pushing to github, `bundle exec rake deploy`.
+When finished, `bundle exec rake compile`. Don't forget:
+- Commit and push the source code
+- Deploy the compiled files
 

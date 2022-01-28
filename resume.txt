@@ -1,67 +1,63 @@
-                                  Kerrick Long
+
+                                 Kerrick Long
 
 Director of Software Engineering
-
-
-    1810 W Mill St.
-    Buffalo, MO 65622
 
    me@kerricklong.com (573) 200-6339
 
 Summary
 
    I'm passionate about solving problems, both through products and
-   process improvement. I love to ship software that uplifts people and
-   brings them together, and I love doing it with a team working at peak
-   efficiency. I believe we choose what we build and how we build it, so
-   let's make the right choices and make a difference.
+   process improvement. I love to ship software that has impact, and I
+   love doing it with a team working at peak efficiency. I believe we
+   choose what we build and how we build it, so let's make the right
+   choices and make a difference.
 
 Employment History
+
+Upland Software
+
+     * Director of Software Engineering, Upland Second Street
+       January 2021 - Present
+          + Lead the product and teams through an acquisition, including
+            personnel and process changes
+          + Teach others the best parts of Second Street's processes
+            while learning the best parts of Upland's
+          + Continue to ship software through turbulent times of people
+            onboarding, leaving, and cross-training
 
 Second Street
 
      * Director of Software Engineering
-       December 2019 - Present
-       As Director of Software Engineering I lead the department with the
-       largest headcount at Second Street; software engineering and QA
-       managers report to me. Together we cultivate a strong engineering
-       culture of quality, velocity, and efficiency.
-          + Take ownership of implementation, testing, and maintenance for
-            Second Street's software platform
+       December 2019 - January 2021
+          + Take ownership of implementation, testing, and maintenance
+            for Second Street's software platform
           + Innovate processes to increase velocity, reduce waste, and
-            multiply productivity
-          + Advise technical and non-technical leadership on technical
-            product strategy
-     * Engineering Manager, Front-End Software Engineering
+            multiply productivity for engineers & QA
+          + Advise co-owners and corporate leadership from every
+            department on technical product strategy
+     * Engineering Manager, Front-End Engineering
        December 2018 - December 2019
           + Recruit, hire, and train software engineers from junior to
             senior level
-          + Identify and execute on opportunities to improve the software
-            development lifecycle and other processes
           + Establish and steward mentorship programs, goal-setting, and
-            other career planning activities
+            other career activities
      * Lead Front-end Software Engineer
        February 2015 - December 2018
-          + Lead the development and maintenance of a suite of front-end
-            web applications
           + Identify and eliminate roadblocks, process bottlenecks, and
             other inefficiencies
-          + Mentor and train junior developers, improving their skills and
-            productivity
+          + Mentor and train junior developers, improving their skills
+            and productivity
      * Senior Front-end Software Engineer
        January 2014 - February 2015
-          + Mentor and train junior developers, improving their skills and
-            productivity
+          + Mentor and train junior developers, improving their skills
+            and productivity
           + Participate in the design and development of white-label web
             software using agile practices
-          + Research and implement new best practices in front-end web
-            development
      * Front-end Software Developer
        May 2013 - January 2014
-          + Participate in the design and development of white-label web
-            software using agile practices
-          + Employ industry best practices in user experience design and
-            front-end web development
+          + Employ best practices in user experience design and front-end
+            web development
           + Develop across browsers and UI paradigms to make our clients
             productive and profitable
 
@@ -73,14 +69,12 @@ Self-Employed
             businesses and individuals
           + Develop open source and proprietary software to fulfill
             internal and client needs
-          + Work with various APIs and existing systems
 
 Southeast Missouri State University
 
      * Student Developer
        September 2009 - September 2011
           + Triage internal support requests for the web team
-          + Design and maintain virtual campus tour interface
           + Develop and help design comprehensive website redesign
 
      * Plain Text

@@ -9,19 +9,12 @@
     <link href="./style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header class="masthead" class="vcard"> <!-- http://microformats.org/wiki/hcard -->
-      <h1 class="name">
-        <a href="https://kerricklong.com/" class="url fn">Kerrick Long</a>
+    <header class="masthead vcard"> <!-- http://microformats.org/wiki/hcard -->
+      <h1 class="n">
+        <span class="given-name">Kerrick</span> <span class="family-name">Long</span>
       </h1>
       <h2 class="tagline">Director of Software Engineering</h2>
       <div class="masthead__contact">
-        <address class="adr">
-          <span class="street-address">1810 <abbr title="West">W</abbr> Mill <abbr title="Street">St.</abbr></span>
-          <br />
-          <span class="locality">Buffalo</span>,
-          <abbr title="Missouri" class="region">MO</abbr>
-          <span class="postal-code">65622</span>
-        </address>
         <a href="mailto:me@kerricklong.com" class="email">me@kerricklong.com</a>
         <a href="tel:+15732006339" class="tel">(573) 200-6339</a>
       </div>
@@ -30,10 +23,10 @@
       <h2 class="resume-block__header">Summary</h2>
       <p>
         I&rsquo;m passionate about solving problems, both through products and
-        process improvement. I love to ship software that uplifts people and
-        brings them together, and I love doing it with a team working at
-        peak efficiency. I believe we choose what we build and how we build
-        it, so let&rsquo;s make the right choices and make a difference.
+        process improvement. I love to ship software that has impact, and I love
+        doing it with a team working at peak efficiency. I believe we choose
+        what we build and how we build it, so let&rsquo;s make the right choices
+        and make a difference.
       </p>
     </div>
     <div id="work-history" class="resume-block">
@@ -41,7 +34,31 @@
       <div class="work">
         <header class="work__header">
           <h3 class="work__title">
-            <a class="work__company" href="http://secondstreet.com/">Second Street</a>
+            <span class="work__company">Upland Software</span>
+          </h3>
+        </header>
+        <div class="subpoints">
+          <ul class="subpoints__list">
+            <li class="subpoints__subpoint subpoint">
+              <h4 class="subpoint__title">Director of Software Engineering, Upland Second Street</h4>
+              <p class="work__dates">
+                <time datetime="2021-01">January 2021</time>
+                &ndash;
+                <time datetime="2022-01">Present</time>
+              </p>
+              <ul class="work__duties">
+                <li>Lead the product and teams through an acquisition, including personnel and process changes</li>
+                <li>Teach others the best parts of Second Street&rsquo;s processes while learning the best parts of Upland&rsquo;s</li>
+                <li>Continue to ship software through turbulent times of people onboarding, leaving, and cross-training</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="work">
+        <header class="work__header">
+          <h3 class="work__title">
+            <span class="work__company">Second Street</span>
           </h3>
         </header>
         <div class="subpoints">
@@ -51,23 +68,16 @@
               <p class="work__dates">
                 <time datetime="2019-12">December 2019</time>
                 &ndash;
-                <time datetime="2020-10">Present</time>
-              </p>
-              <p class="subpoint__description">
-                As Director of Software Engineering I lead the department with
-                the largest headcount at Second Street; software engineering and
-                <abbr title="Quality Assurance">QA</abbr> managers report to
-                me. Together we cultivate a strong engineering culture of
-                quality, velocity, and efficiency.
+                <time datetime="2021-01">January 2021</time>
               </p>
               <ul class="work__duties">
                 <li>Take ownership of implementation, testing, and maintenance for Second Street&rsquo;s software platform</li>
-                <li>Innovate processes to increase velocity, reduce waste, and multiply productivity</li>
-                <li>Advise technical and non-technical leadership on technical product strategy</li>
+                <li>Innovate processes to increase velocity, reduce waste, and multiply productivity for engineers &amp; <abbr title="Quality Assurance">QA</abbr></li>
+                <li>Advise co-owners and corporate leadership from every department on technical product strategy</li>
               </ul>
             </li>
             <li class="subpoints__subpoint subpoint">
-              <h4 class="subpoint__title">Engineering Manager, Front-End Software Engineering</h4>
+              <h4 class="subpoint__title">Engineering Manager, Front-End Engineering</h4>
               <p class="work__dates">
                 <time datetime="2018-12">December 2018</time>
                 &ndash;
@@ -75,8 +85,7 @@
               </p>
               <ul class="work__duties">
                 <li>Recruit, hire, and train software engineers from junior to senior level</li>
-                <li>Identify and execute on opportunities to improve the software development lifecycle and other processes</li>
-                <li>Establish and steward mentorship programs, goal-setting, and other career planning activities</li>
+                <li>Establish and steward mentorship programs, goal-setting, and other career activities</li>
               </ul>
             </li>
             <li class="subpoints__subpoint subpoint">
@@ -87,7 +96,6 @@
                 <time datetime="2018-12">December 2018</time>
               </p>
               <ul class="work__duties">
-                <li>Lead the development and maintenance of a suite of front-end web applications</li>
                 <li>Identify and eliminate roadblocks, process bottlenecks, and other inefficiencies</li>
                 <li>Mentor and train junior developers, improving their skills and productivity</li>
               </ul>
@@ -102,7 +110,6 @@
               <ul class="work__duties">
                 <li>Mentor and train junior developers, improving their skills and productivity</li>
                 <li>Participate in the design and development of white-label web software using agile practices</li>
-                <li>Research and implement new best practices in front-end web development</li>
               </ul>
             </li>
             <li class="subpoints__subpoint subpoint">
@@ -113,8 +120,7 @@
                 <time datetime="2014-01">January 2014</time>
               </p>
               <ul class="work__duties">
-                <li>Participate in the design and development of white-label web software using agile practices</li>
-                <li>Employ industry best practices in user experience design and front-end web development</li>
+                <li>Employ best practices in user experience design and front-end web development</li>
                 <li>Develop across browsers and UI paradigms to make our clients productive and profitable</li>
               </ul>
             </li>
@@ -124,7 +130,7 @@
       <div class="work">
         <header class="work__header">
           <h3 class="work__title">
-            <a class="work__company" href="https://kerricklong.com/">Self-Employed</a>
+            <span class="work__company">Self-Employed</span>
           </h3>
         </header>
         <div class="subpoints">
@@ -141,7 +147,6 @@
               <ul class="work__duties">
                 <li>Design, code, and deploy websites for clients including small businesses and individuals</li>
                 <li>Develop open source and proprietary software to fulfill internal and client needs</li>
-                <li>Work with various APIs and existing systems</li>
               </ul>
             </li>
           </ul>
@@ -150,7 +155,7 @@
       <div class="work">
         <header class="work__header">
           <h3 class="work__title">
-            <a class="work__company" href="https://www.semo.edu/">Southeast Missouri State University</a>
+            <span class="work__company">Southeast Missouri State University</span>
           </h3>
         </header>
         <div class="subpoints">
@@ -164,7 +169,6 @@
               </p>
               <ul class="work__duties">
                 <li>Triage internal support requests for the web team</li>
-                <li>Design and maintain virtual campus tour interface</li>
                 <li>Develop and help design comprehensive website redesign</li>
               </ul>
             </li>
