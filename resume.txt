@@ -1,5 +1,4 @@
-
-                                 Kerrick Long
+                                  Kerrick Long
 
 Director of Software Engineering
 
@@ -15,59 +14,71 @@ Summary
 
 Employment History
 
+Over The Top Marketing
+
+     * Senior Front-End Software Engineer
+       September 2022 - Present
+          + Shipped features that resulted in a 22% year-over-year
+            improvement in conversions using Angular, RxJS, and TypeScript
+          + Initiated a cross-departmental feature prioritization process
+            to focus engineering throughput on what mattered most
+          + Implemented industry best practices in both process and
+            technology on the engineering team to improve velocity
+
 Upland Software
 
      * Director of Software Engineering, Upland Second Street
-       January 2021 - Present
-          + Lead the product and teams through an acquisition, including
+       January 2021 - May 2022
+          + Led the product and teams through an acquisition, including
             personnel and process changes
-          + Teach others the best parts of Second Street's processes
+          + Taught others the best parts of Second Street's processes
             while learning the best parts of Upland's
-          + Continue to ship software through turbulent times of people
-            onboarding, leaving, and cross-training
+          + Delivered features in two products with a peak of 34 staff
+            (engineering, management, and QA) across two remote-first
+            teams
 
 Second Street
 
      * Director of Software Engineering
        December 2019 - January 2021
-          + Take ownership of implementation, testing, and maintenance
-            for Second Street's software platform
-          + Innovate processes to increase velocity, reduce waste, and
-            multiply productivity for engineers & QA
-          + Advise co-owners and corporate leadership from every
+          + Owned implementation, testing, and maintenance for Second
+            Street's software platform
+          + increased velocity, reduced waste, and multiplied productivity
+            for engineers & QA through process innovation
+          + Advised co-owners and corporate leadership from every
             department on technical product strategy
      * Engineering Manager, Front-End Engineering
        December 2018 - December 2019
-          + Recruit, hire, and train software engineers from junior to
-            senior level
-          + Establish and steward mentorship programs, goal-setting, and
-            other career activities
+          + Recruited, hired, and trained software engineers from junior
+            to senior level
+          + Established and stewarded mentorship programs, goal-setting,
+            and other career activities
      * Lead Front-end Software Engineer
        February 2015 - December 2018
-          + Identify and eliminate roadblocks, process bottlenecks, and
+          + Identified and eliminated roadblocks, process bottlenecks, and
             other inefficiencies
-          + Mentor and train junior developers, improving their skills
+          + Mentored and trained junior developers, improving their skills
             and productivity
      * Senior Front-end Software Engineer
        January 2014 - February 2015
-          + Mentor and train junior developers, improving their skills
+          + Mentored and trained junior developers, improving their skills
             and productivity
-          + Participate in the design and development of white-label web
+          + Participated in the design and development of white-label web
             software using agile practices
      * Front-end Software Developer
        May 2013 - January 2014
-          + Employ best practices in user experience design and front-end
-            web development
-          + Develop across browsers and UI paradigms to make our clients
+          + Employed best practices in user experience design and
+            front-end web development
+          + Developed across browsers and UI paradigms to make our clients
             productive and profitable
 
 Self-Employed
 
      * Software Developer
        June 2008 - May 2013 & Intermittently
-          + Design, code, and deploy websites for clients including small
-            businesses and individuals
-          + Develop open source and proprietary software to fulfill
+          + Designed, developed, and deployed websites for clients
+            including small businesses and individuals
+          + Develoedp open source and proprietary software to fulfill
             internal and client needs
 
 Southeast Missouri State University
