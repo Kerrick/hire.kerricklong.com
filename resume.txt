@@ -43,7 +43,7 @@ Second Street
        December 2019 - January 2021
           + Owned implementation, testing, and maintenance for Second
             Street's software platform
-          + increased velocity, reduced waste, and multiplied productivity
+          + Increased velocity, reduced waste, and multiplied productivity
             for engineers & QA through process innovation
           + Advised co-owners and corporate leadership from every
             department on technical product strategy
@@ -78,7 +78,7 @@ Self-Employed
        June 2008 - May 2013 & Intermittently
           + Designed, developed, and deployed websites for clients
             including small businesses and individuals
-          + Develoedp open source and proprietary software to fulfill
+          + Developed open source and proprietary software to fulfill
             internal and client needs
 
 Southeast Missouri State University
