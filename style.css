@@ -54,6 +54,7 @@ a:visited {
 }
 abbr {
   text-decoration: none;
+  font-size: 1cap;
 }
 
 .masthead {
@@ -151,7 +152,7 @@ abbr {
 .subpoints__subpoint {
   margin: 0 0 1rem;
 }
-.subpoints__subpoint:first-child {
+.subpoints__subpoint {
   column-span: all;
 }
 
