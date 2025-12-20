@@ -1,0 +1,28 @@
+{
+  "name": "hire.kerricklong.com",
+  "version": "2.0.0",
+  "description": "Kerrick Long’s online résumé",
+  "homepage": "https://github.com/Kerrick/hire.kerricklong.com#readme",
+  "bugs": {
+    "url": "https://github.com/Kerrick/hire.kerricklong.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerrick/hire.kerricklong.com.git"
+  },
+  "license": "MIT-0",
+  "author": "Kerrick Long",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "favicon": "script/favicon",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./ && cp CNAME docs/CNAME",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "parcel": "^2.16.3",
+    "tailwindcss": "^4.1.18"
+  }
+}

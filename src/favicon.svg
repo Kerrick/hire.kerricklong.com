@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 -64 128 128">
+  <style>
+    .background { fill: #ffffff; }
+    .text-path { fill: #000000; }
+    .accent-bar { fill: #f96302; }
+
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #333333; }
+      .text-path { fill: #ffffff; }
+    }
+  </style>
+
+  <rect class="background" x="-64" y="-64" width="128" height="128" />
+  <path class="text-path" d="M-11.45 31.75L7.53 31.75L-19.61-11.82L5.30-42.24L-12.93-42.24L-29.57-21.36L-40.07-7.05L-40.70-7.05L-40.70-42.24L-56.82-42.24L-56.82 31.75L-40.70 31.75L-40.70 11.19L-31.06-0.47ZM61.27 31.75L61.27 17.44L33.07 17.44L33.07-42.24L16.96-42.24L16.96 31.75Z" />
+
+  <rect class="accent-bar" x="-64" y="56.00000000000000000000" width="128" height="8.00000000000000000000" />
+</svg>

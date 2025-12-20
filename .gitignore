@@ -2,4 +2,7 @@
 *.swo
 .sass-cache/
 .idea/
-
+.output.txt
+.parcel-cache/
+dist/
+node_modules/

@@ -1,0 +1,142 @@
+#!/bin/zsh
+set -e
+
+#######################################################
+##                                                   ##
+##  This script was created by an AI, Gemini 3 Pro.  ##
+##      https://declare-ai.org/1.0.0/total.html      ##
+##                                                   ##
+#######################################################
+
+# --- 1. Typography Configuration ---
+FONT_FAMILY="IBM Plex Sans"
+FONT_WEIGHT="Bold"
+FONT_STYLE="Roman"
+
+# --- 2. Icon Configuration ---
+TEXT="KL"
+OUTPUT_DIR="src"
+OUTPUT_SVG="$OUTPUT_DIR/favicon.svg"
+
+# Colors (Hex)
+COLOR_TEXT_LIGHT="#000000"
+COLOR_TEXT_DARK="#ffffff"
+COLOR_BG_LIGHT="#ffffff"
+COLOR_BG_DARK="#333333"
+COLOR_ACCENT="#f96302" # The orange bar
+
+# Geometry
+# The ratio of the total height the bar should take up.
+# Default 1/16 ensures that at 16px size, the bar is exactly 1px tall.
+BAR_HEIGHT_RATIO="1/16"
+
+# --- 3. Dependency Check ---
+if ! command -v rsvg-convert &> /dev/null; then
+    echo "❌ Error: librsvg is not installed (needed for PNG generation)."
+    echo "   Please run: brew install librsvg"
+    exit 1
+fi
+
+# --- 4. Find the Font File ---
+SLANT_VAL=0
+if [[ "$FONT_STYLE" == "Italic" ]]; then
+  SLANT_VAL=100
+fi
+
+echo "🔍 Searching for font: $FONT_FAMILY ($FONT_WEIGHT, $FONT_STYLE)..."
+
+FONT_PATH=$(fc-match --format=%{file} "${FONT_FAMILY}:weight=${FONT_WEIGHT}:slant=${SLANT_VAL}")
+
+if [[ -z "$FONT_PATH" ]]; then
+  echo "❌ Error: Could not find a font file for those parameters."
+  exit 1
+fi
+echo "   Found: $FONT_PATH"
+
+# --- 5. Calculate Geometry ---
+# SVG ViewBox is -64 -64 128 128 (Total Height = 128)
+TOTAL_HEIGHT=128
+BOTTOM_Y=64
+
+# Calculate Bar Height using bc for floating point math
+# formula: 128 * (1/16)
+BAR_HEIGHT_VAL=$(echo "$TOTAL_HEIGHT * $BAR_HEIGHT_RATIO" | bc -l)
+
+# Calculate Bar Y Position
+# formula: 64 - height
+BAR_Y_VAL=$(echo "$BOTTOM_Y - $BAR_HEIGHT_VAL" | bc -l)
+
+echo "📐 Geometry: Bar Height = $BAR_HEIGHT_VAL units ($BAR_HEIGHT_RATIO), Y = $BAR_Y_VAL"
+
+# --- 6. Setup Temp Sandbox ---
+WORK_DIR=$(mktemp -d)
+trap 'rm -rf "$WORK_DIR"' EXIT
+
+echo "📦 Installing dependencies to sandbox..."
+cd "$WORK_DIR"
+echo '{}' > package.json
+npm install text-to-svg --silent --no-audit --no-fund
+cd - > /dev/null
+
+# --- 7. Processing Vectors ---
+echo "⚙️  Converting '$TEXT' to vector path..."
+
+PATH_DATA=$(NODE_PATH="$WORK_DIR/node_modules" node -e "
+    const TextToSVG = require('text-to-svg');
+    try {
+        const font = TextToSVG.loadSync('$FONT_PATH');
+        // We generate text at 106px size to fit nicely in our 128px box
+        // (100 / 120 * 128 approx 106.67)
+        const d = font.getD('$TEXT', {
+            fontSize: 106,
+            anchor: 'center middle',
+            y: -8,
+            attributes: { stroke: 'none' }
+        });
+        console.log(d);
+    } catch (e) {
+        console.error('Error loading font:', e.message);
+        process.exit(1);
+    }
+")
+
+# --- 8. Generate SVG ---
+mkdir -p "$OUTPUT_DIR"
+echo "💾 Saving $OUTPUT_SVG..."
+
+cat <<EOF > "$OUTPUT_SVG"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 -64 128 128">
+  <style>
+    .background { fill: $COLOR_BG_LIGHT; }
+    .text-path { fill: $COLOR_TEXT_LIGHT; }
+    .accent-bar { fill: $COLOR_ACCENT; }
+
+    @media (prefers-color-scheme: dark) {
+      .background { fill: $COLOR_BG_DARK; }
+      .text-path { fill: $COLOR_TEXT_DARK; }
+    }
+  </style>
+
+  <rect class="background" x="-64" y="-64" width="128" height="128" />
+  <path class="text-path" d="$PATH_DATA" />
+
+  <rect class="accent-bar" x="-64" y="$BAR_Y_VAL" width="128" height="$BAR_HEIGHT_VAL" />
+</svg>
+EOF
+
+# --- 9. Generate PNGs ---
+echo "🖼️  Generating PNG assets..."
+
+# 32x32
+rsvg-convert -w 32 -h 32 "$OUTPUT_SVG" -o "$OUTPUT_DIR/favicon-32x32.png"
+echo "   -> $OUTPUT_DIR/favicon-32x32.png"
+
+# 16x16
+rsvg-convert -w 16 -h 16 "$OUTPUT_SVG" -o "$OUTPUT_DIR/favicon-16x16.png"
+echo "   -> $OUTPUT_DIR/favicon-16x16.png"
+
+# Apple Touch Icon (180x180)
+rsvg-convert -w 180 -h 180 "$OUTPUT_SVG" -o "$OUTPUT_DIR/apple-touch-icon.png"
+echo "   -> $OUTPUT_DIR/apple-touch-icon.png"
+
+echo "✅ All done."
