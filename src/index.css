@@ -1,1 +1,180 @@
 @import "tailwindcss";
+
+/*********************************************************************************************
+ **                                                                                         **
+ **  This stylesheet was created with non-creative assistance from an AI, JetBrains Junie.  **
+ **    The résumé layout and behavior was designed by a human. Tailwind was added by AI.    **
+ **                    https://declare-ai.org/1.0.0/non-creative.html                       **
+ **                                                                                         **
+**********************************************************************************************/
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../node_modules/@ibm/plex-sans-variable/fonts/complete/woff2/IBM Plex Sans Var-Roman.woff2") format("woff2-variations");
+  font-weight: 100 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../node_modules/@ibm/plex-sans-variable/fonts/complete/woff2/IBM Plex Sans Var-Italic.woff2") format("woff2-variations");
+  font-weight: 100 700;
+  font-style: italic;
+}
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --text-base: 16px;
+  --text-lg: calc(16 / 11 * 12px);
+  --text-xl: calc(16 / 11 * 14px);
+  --text-2xl: calc(16 / 11 * 18px);
+  --text-4xl: calc(16 / 11 * 34px);
+
+  --spacing-1: 12px;
+  --spacing-2: 18px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-4_5: 16px;
+
+  --font-weight-text: 450;
+  --max-width-4xl: 54.5rem;
+  --breakpoint-4xl: 58rem;
+}
+
+@media print {
+  :root {
+    --text-base: 11pt;
+    --text-lg: 12pt;
+    --text-xl: 14pt;
+    --text-2xl: 18pt;
+    --text-4xl: 34pt;
+
+    --spacing-1: 3pt;
+    --spacing-2: 6pt;
+    --spacing-3: 6pt;
+    --spacing-4: 12pt;
+    --spacing-4_5: 13.5pt;
+  }
+
+  @page {
+    margin: 0; /* Eliminate date/time/url */
+    padding: 0.62in; /* Functional margin */
+  }
+}
+
+abbr {
+  @apply no-underline cursor-help;
+}
+
+.h-resume {
+  @apply max-w-4xl mx-auto px-3 print:max-w-none print:px-0;
+}
+
+@media screen {
+  body {
+    @apply bg-neutral-100 dark:bg-neutral-900;
+  }
+
+  .h-resume {
+    @apply bg-white text-black shadow-sm dark:bg-neutral-800 dark:text-white 4xl:my-8 4xl:py-12 4xl:px-14;
+  }
+}
+
+body {
+  @apply text-base font-text leading-[1.4];
+}
+
+.p-location {
+  @apply text-lg italic md:text-right print:text-right;
+}
+
+.p-experience.organization > .p-name {
+  @apply text-xl font-bold;
+}
+
+article.role > .p-name {
+  @apply font-bold;
+}
+
+section {
+  @apply mb-4 last:mb-0;
+}
+
+section.p-experience {
+  @apply mb-3 last:mb-0 md:grid md:grid-cols-[max-content_1fr] print:grid print:grid-cols-[max-content_1fr] print:break-inside-avoid;
+}
+
+section > h2 {
+  @apply text-2xl font-bold;
+}
+
+article.role {
+  @apply mb-2 last:mb-0 md:col-span-2 md:grid md:grid-cols-[max-content_1fr] print:col-span-2 print:grid print:grid-cols-[max-content_1fr] print:break-inside-avoid;
+}
+
+.p-experience-duration {
+  @apply md:text-right print:text-right;
+}
+
+section:has(.p-skill) h3 {
+  @apply font-bold inline after:content-[':\20'];
+}
+
+section.p-experience h3 {
+  @apply font-bold inline after:content-none;
+}
+
+section h3 small {
+  @apply font-normal text-xl;
+}
+
+section:has(.p-skill) > ul > li {
+  @apply block;
+}
+
+section:has(.p-skill) ul ul,
+section:has(.p-skill) li li {
+  @apply inline;
+}
+
+.p-skill:not(:last-child) {
+  @apply after:content-[',\20'];
+}
+
+.p-skill:last-child {
+  @apply after:content-['.\20'];
+}
+
+.p-name > a {
+  @apply text-4xl font-bold;
+}
+
+.h-card {
+  @apply border-b-[3px] border-current pb-1 mb-1;
+  @apply md:grid md:grid-cols-2 print:grid print:grid-cols-2;
+}
+
+.h-card > .p-name {
+  @apply md:col-start-1 print:col-start-1;
+}
+
+.h-card > .p-adr {
+  @apply md:col-start-1 print:col-start-1;
+}
+
+.h-card > ul {
+  @apply md:col-start-2 md:row-start-1 md:row-span-2 md:text-right md:self-center print:col-start-2 print:row-start-1 print:row-span-2 print:text-right print:self-center;
+}
+
+.p-experience-duration small {
+  @apply italic text-base;
+}
+
+time {
+  @apply italic;
+}
+
+article.role > ul {
+  @apply list-disc list-outside pl-4.5 md:col-span-2 print:col-span-2;
+}
