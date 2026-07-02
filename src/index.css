@@ -59,7 +59,7 @@
 
   @page {
     margin: 0; /* Eliminate date/time/url */
-    padding: 0.62in; /* Functional margin */
+    padding: 0.50in 0.62in; /* Functional margin */
   }
 }
 
@@ -85,8 +85,8 @@ body {
   @apply text-base font-text leading-[1.4];
 }
 
-.p-location {
-  @apply text-lg italic md:text-right print:text-right;
+.p-experience-duration {
+  @apply text-lg font-light italic md:text-right print:text-right;
 }
 
 .p-experience.organization > .p-name {
@@ -102,7 +102,7 @@ section {
 }
 
 section.p-experience {
-  @apply mb-3 last:mb-0 md:grid md:grid-cols-[max-content_1fr] print:grid print:grid-cols-[max-content_1fr] print:break-inside-avoid;
+  @apply mb-3 last:mb-0 md:grid md:grid-cols-[max-content_1fr] print:grid print:grid-cols-[max-content_1fr];
 }
 
 section > h2 {
@@ -113,8 +113,8 @@ article.role {
   @apply mb-2 last:mb-0 md:col-span-2 md:grid md:grid-cols-[max-content_1fr] print:col-span-2 print:grid print:grid-cols-[max-content_1fr] print:break-inside-avoid;
 }
 
-.p-experience-duration {
-  @apply md:text-right print:text-right;
+.p-location {
+  @apply font-light italic md:text-right print:text-right;
 }
 
 section:has(.p-skill) h3 {
@@ -151,8 +151,8 @@ section:has(.p-skill) li li {
 }
 
 .h-card {
-  @apply border-b-[3px] border-current pb-1 mb-1;
-  @apply md:grid md:grid-cols-2 print:grid print:grid-cols-2;
+  @apply border-b-[3px] border-current mb-1;
+  @apply md:grid md:grid-cols-[max-content_1fr] print:grid print:grid-cols-[max-content_1fr];
 }
 
 .h-card > .p-name {
@@ -160,11 +160,11 @@ section:has(.p-skill) li li {
 }
 
 .h-card > .p-adr {
-  @apply md:col-start-1 print:col-start-1;
+  @apply md:col-start-1 print:col-start-1 mt-1;
 }
 
 .h-card > ul {
-  @apply md:col-start-2 md:row-start-1 md:row-span-2 md:text-right md:self-center print:col-start-2 print:row-start-1 print:row-span-2 print:text-right print:self-center;
+  @apply md:col-start-2 md:row-start-1 md:row-span-2 md:text-right md:self-center print:col-start-2 print:row-start-1 print:row-span-2 print:text-right print:self-center leading-4;
 }
 
 .p-experience-duration small {

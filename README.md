@@ -21,8 +21,8 @@ This populates the `docs` folder.
 A pre-commit hook builds the site.
 It stages the `docs` folder automatically.
 
-### GitHub Pages
-The site deploys from the `gh-pages` branch.
+### Kamal
+The site deploys via `kamal` (`gem install kamal`).
 The source is the `/docs` folder.
 
 ## License

@@ -16,7 +16,8 @@
   "scripts": {
     "start": "parcel src/index.html",
     "favicon": "script/favicon",
-    "build": "parcel build src/index.html --dist-dir docs --public-url ./ && cp CNAME docs/CNAME",
+    "prebuild": "rm -rf docs .parcel-cache",
+    "build": "parcel build src/index.html --dist-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
